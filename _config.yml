@@ -1,2 +1,3 @@
 name: bartulem
 markdown: kramdown
+permalink: /in exile/:year/:month/:day/:title
