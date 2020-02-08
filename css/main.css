@@ -27,7 +27,8 @@ h1 {
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
 }
 p {
-    font-size: 1.5em;
+    font-family:'Helvetica', 'Sans-Serif', 'Arial';
+    font-size: 1.0em;
     line-height: 1.4em;
     margin-left: auto;
     margin-right: auto;
