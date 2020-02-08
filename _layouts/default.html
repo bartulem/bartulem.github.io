@@ -6,27 +6,15 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/about">about</a></li>
-        			<li><a href="/science">(neuro)science</a></li>
-        			<li><a href="/inexile">in exile</a></li>
-				<li><a href="/code">code</a></li>
-				<li><a href="/publications">publications</a></li>
-	    		</ul>
-			</nav>
 			<div class="container">
+				
+				{% include header.html %}
 			
-			{{ content }}
+				{{ content }}
 			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:mimica.bartul@gmail.com">email</a></li>
-				<li><a href="https://scholar.google.no/citations?user=aUeOyr8AAAAJ&hl=en">scholar</a></li>
-				<li><a href="https://twitter.com/BartulEm">twitter</a></li>
-	        		<li><a href="https://github.com/bartulem">github</a></li>
-				</ul>
-			</footer>
+				{% include footer.html %}
+		
+			</div> <!-- /container -->
 		</body>
+
 	</html>
