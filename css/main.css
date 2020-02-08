@@ -5,6 +5,13 @@ body {
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
     color: rgb(153, 153, 153);
 }
+nav ul, header ul {
+    font-family:'Helvetica', 'Sans-Serif', 'Arial';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 3em;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
     padding: 0px;
@@ -23,7 +30,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 6em;
+    font-size: 3em;
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
 }
 p {
