@@ -31,6 +31,10 @@ p {
     font-style: normal;
     font-size: 1.5em;
     line-height: 1.0em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header {
     border-bottom: none;
