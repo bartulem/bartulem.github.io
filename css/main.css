@@ -30,9 +30,7 @@ p {
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
     font-style: normal;
     font-size: 1.5em;
-    line-height: 1.4em;
-    margin-left: auto;
-    margin-right: auto;
+    line-height: 1.0em;
 }
 header {
     border-bottom: none;
