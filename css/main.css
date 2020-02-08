@@ -38,12 +38,12 @@ p {
 }
 header {
     border-bottom: none;
-    font-size: 1.25em;
+    font-size: 2.25em;
 }
 footer {
     margin-top: none;
-    border-top: 1.25px solid #d5d5d5;
-    font-size: 1.em;
+    border-top: 2.25px solid #d5d5d5;
+    font-size: 1.0em;
 }
 
 ul.posts { 
@@ -59,4 +59,10 @@ img.rounded-corners {
     border-radius: 3px;
     margin-left: auto;
     margin-right: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
