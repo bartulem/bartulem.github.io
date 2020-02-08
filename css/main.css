@@ -41,7 +41,7 @@ header {
     font-size: 1.em;
 }
 footer {
-    margin-top: 20px;
+    margin-top: none;
     border-top: none;
     font-size: 1.em;
 }
