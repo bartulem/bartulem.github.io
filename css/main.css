@@ -8,6 +8,7 @@ body {
 nav ul li, header ul li {
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
     font-size: 3em;
+    font-weight: bold;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
