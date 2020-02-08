@@ -42,7 +42,7 @@ header {
 }
 footer {
     margin-top: none;
-    border-top: none;
+    border-top: auto;
     font-size: 1.em;
 }
 
