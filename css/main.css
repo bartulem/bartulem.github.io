@@ -43,3 +43,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+img.rounded-corners { 
+    border-radius: 30px;
+}
