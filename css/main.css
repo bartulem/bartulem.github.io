@@ -1,5 +1,5 @@
 body {
-    margin-top: 40px;
+    margin-top: 10px;
     width: 100%;
     background-color: rgb(38, 38, 38);
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
@@ -32,8 +32,13 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+header {
+    margin-bottom: 50px;
+    border-bottom: none;
+    font-size: 1.em;
+}
 footer {
-    margin-top: 40px;
+    margin-top: 20px;
     border-top: none;
     font-size: 1.em;
 }
