@@ -7,7 +7,7 @@ body {
 }
 nav ul li, header ul li {
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
-    font-size: 3em;
+    font-size: 1.25em;
     font-weight: bold;
 }
 nav ul, footer ul {
@@ -19,6 +19,8 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+    font-size: 1.25em;
+    font-weight: bold;
 }
 a {
     text-decoration: none;
