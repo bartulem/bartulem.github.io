@@ -5,11 +5,8 @@ body {
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
     color: rgb(153, 153, 153);
 }
-nav ul, header ul {
+nav ul li, header ul li {
     font-family:'Helvetica', 'Sans-Serif', 'Arial';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
     font-size: 3em;
 }
 nav ul, footer ul {
