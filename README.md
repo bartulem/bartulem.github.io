@@ -11,4 +11,4 @@ All content on this site is distributed under a [Creative Commons Attribution 3.
   * Replace the Google Analytics tracking code with your own, or
   * If you don't use Google Analytics, comment the block of code out entirely.
 
-Otherwise I will receive GA data and DISQUS comments from your website.
+Otherwise I will receive GA data from your website.
