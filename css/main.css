@@ -4,7 +4,7 @@ body {
     font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif';
     color: rgb(153, 153, 153);
 }
-header {
+nav ul li, header ul li {
     font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif';
     font-size: 1.25em;
     font-weight: bold;
