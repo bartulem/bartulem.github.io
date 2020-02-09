@@ -1,5 +1,4 @@
 body {
-    margin: 20px auto;
     width: 100%;
     background-color: rgb(38, 38, 38);
     font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif';
@@ -18,7 +17,6 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
     font-size: 1.25em;
     font-weight: bold;
 }
