@@ -8,6 +8,7 @@ nav ul li, header ul li {
     font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif';
     font-size: 1.25em;
     font-weight: bold;
+    border-bottom: 2.25px solid #d5d5d5;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif';
@@ -31,7 +32,6 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif';
-    border-bottom: 2.25px solid #d5d5d5;
 }
 p {
     font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif';
