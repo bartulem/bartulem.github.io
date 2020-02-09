@@ -64,3 +64,8 @@ img.rounded-corners {
     border-radius: 3px;
     vertical-align: middle;
 }
+.content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
