@@ -6,7 +6,7 @@ body {
 }
 nav ul li, header ul li {
     font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif';
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 nav ul, footer ul {
@@ -47,11 +47,6 @@ footer {
     border-top: 2.25px solid #d5d5d5;
     font-size: 1.0em;
 }
-header {
-    border-bottom: 2.25px solid #d5d5d5;
-    font-size: 1.0em;
-}
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
