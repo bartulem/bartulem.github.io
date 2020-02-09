@@ -40,8 +40,6 @@ p {
     line-height: 1.0em;
     margin-top: 35px;
     margin-bottom: 35px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -67,10 +65,4 @@ img.rounded-corners {
     border-radius: 3px;
     margin-left: auto;
     margin-right: auto;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
