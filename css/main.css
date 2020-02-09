@@ -2,16 +2,16 @@ body {
     margin: 20px auto;
     width: 100%;
     background-color: rgb(38, 38, 38);
-    font-family:'Helvetica', 'Sans-Serif', 'Arial';
+    font-family:'Helvetica', 'Helvetica Neue', 'Sans-Serif', 'Arial';
     color: rgb(153, 153, 153);
 }
 nav ul li, header ul li {
-    font-family:'Helvetica', 'Sans-Serif', 'Arial';
+    font-family:'Helvetica', 'Helvetica Neue', 'Sans-Serif', 'Arial';
     font-size: 1.25em;
     font-weight: bold;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Sans-Serif', 'Arial';
+    font-family:'Helvetica', 'Helvetica Neue', 'Sans-Serif', 'Arial';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -31,10 +31,10 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Sans-Serif', 'Arial';
+    font-family:'Helvetica', 'Helvetica Neue', 'Sans-Serif', 'Arial';
 }
 p {
-    font-family:'Helvetica', 'Sans-Serif', 'Arial';
+    font-family:'Helvetica', 'Helvetica Neue', 'Sans-Serif', 'Arial';
     font-style: normal;
     font-size: 1.65em;
     line-height: 1.0em;
@@ -42,6 +42,8 @@ p {
     margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 header {
     border-bottom: none;
