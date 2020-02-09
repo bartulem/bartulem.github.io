@@ -43,7 +43,7 @@ p {
     text-justify: inter-word;
 }
 header {
-    border-bottom: none;
+    border-bottom: 2.25px solid #d5d5d5;
 }
 footer {
     margin-top: none;
