@@ -1,21 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Helvetica);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
-body { padding-top: 20px; padding-bottom: 40px; font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 16px; background-color: #262626; color: #999999;}
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; background-color: #262626; color: #999999;}
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-weight: normal;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: normal;}
 
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
-.header, .header h3 { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 1.15em; font-weight: bold; color: #999999; }
+.header, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.15em; font-weight: bold; color: #999999; }
 
-.footer { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 1.15em; font-weight: bold; color: #999999; margin-top: 20px; border-top: 1.75px solid #d5d5d5; font-size: 1.0em; }
+.footer { font-family: 'Helvetica', 'Montserrat', Helvetica, sans-serif; font-size: 1.15em; font-weight: bold; color: #999999; margin-top: 20px; border-top: 1.75px solid #d5d5d5; font-size: 1.0em; }
 
-nav ul li, header ul li { font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 1.15em; font-weight: bold; }
+nav ul li, header ul li { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 1.15em; font-weight: bold; }
 
-nav ul li, footer ul li { font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; padding: 0px; margin-right: 20px; list-style: none; display: inline; font-size: 1.15em; font-weight: bold; }
+nav ul li, footer ul li { font-family: 'Montserrat', Helvetica, sans-serif; padding: 0px; margin-right: 20px; list-style: none; display: inline; font-size: 1.15em; font-weight: bold; }
 
-a { color: #999999; text-decoration: none; font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-style: normal; font-size: 16px; line-height: 25px; text-align: justify; text-justify: inter-word; }
+a { color: #999999; text-decoration: none; font-family: 'Montserrat', Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 25px; text-align: justify; text-justify: inter-word; }
 	
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #999999; }
@@ -39,10 +40,8 @@ ul.posts li { list-style: none;}
 .jumbotron { margin: 80px 0; }
 .jumbotron h1 { font-size: 72px; line-height: 1; }
 .jumbotron .btn { font-size: 21px; padding: 14px 24px; }
-p { font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-style: normal; font-size: 16px; line-height: 25px; text-align: justify; text-justify: inter-word; }
-.marketing p { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 16px; line-height: 25px; color: #999999; }
-.marketing p a { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 16px; text-decoration: none; color: #999999; }
-.marketing p.lead { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 16px; line-height: 30px; }
+.marketing p { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 16px; line-height: 25px; color: #999999; }
+.marketing p.lead { font-family: 'Montserrat', Helvetica, sans-serif; font-size: 16px; line-height: 30px; }
 
 
 .step { border-radius: 50%; 
@@ -57,5 +56,5 @@ p { font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-style:
 	font-size: 24px;
 	padding-top: 5.5px;
 	margin: 5px 15px 0px 0px;
-	font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; }
+	font-family: 'Montserrat', Helvetica, sans-serif; }
 
