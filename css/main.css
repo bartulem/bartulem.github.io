@@ -6,9 +6,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Helvetica',
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
-.header, .footer, .header h3 { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 1.15em; font-weight: bold; color: #999999; }
+.header, .header h3 { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 1.15em; font-weight: bold; color: #999999; }
 
-footer {margin-top: 20px; border-top: 2.25px solid #d5d5d5; font-size: 1.0em; }
+.footer { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 1.15em; font-weight: bold; color: #999999; margin-top: 20px; border-top: 2.25px solid #d5d5d5; font-size: 1.0em; }
 	
 a { color: #999999; text-decoration: none; }
 	
