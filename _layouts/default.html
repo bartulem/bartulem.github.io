@@ -1,20 +1,22 @@
 <!DOCTYPE html>
+<html lang="en">
 	
-	<html lang="en">
-
-		{% include head.html %}
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-
-		<body>
-			<div class="container">
-				
-				{% include header.html %}
+	{% include head.html %}
+	
+	<body>
+		<div class="container">
 			
-				{{ content }}
+			{% include header.html %}
 			
-				{% include footer.html %}
+			{{ content }}
+			
+			{% include footer.html %}
 		
-			</div> <!-- /container -->
-		</body>
+		</div> <!-- /container -->
+	
+	
+		{% include scripts.html %}
+	
+	</body>
 
-	</html>
+</html>
