@@ -38,9 +38,9 @@ ul.posts li { list-style: none;}
 .jumbotron { margin: 80px 0; }
 .jumbotron h1 { font-size: 72px; line-height: 1; }
 .jumbotron .btn { font-size: 21px; padding: 14px 24px; }
-.marketing p { line-height: 25px; color: #999999; }
-.marketing p a { text-decoration: none; color: #999999; }
-.marketing p.lead { line-height: 30px; }
+.marketing p { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 16px; line-height: 25px; color: #999999; }
+.marketing p a { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 16px; text-decoration: none; color: #999999; }
+.marketing p.lead { font-family: 'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 16px; line-height: 30px; }
 
 
 .step { border-radius: 50%; 
