@@ -10,8 +10,10 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 
 nav ul li, header ul li { font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-size: 1.15em; font-weight: bold; color: #999999; }
 
-nav ul li, footer ul li {font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; padding: 0px; margin-right: 20px; display: inline; font-size: 1.15em; font-weight: bold; color: #999999;}
+nav ul li, footer ul li { font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; padding: 0px; margin-right: 20px; display: inline; font-size: 1.15em; font-weight: bold; color: #999999;}
 
+a { color: #999999; text-decoration: none; }
+	
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #999999; }
