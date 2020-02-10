@@ -16,6 +16,7 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
+    margin-top: 20px;
     margin-right: 20px;
     display: inline;
     font-size: 1.15em;
@@ -34,7 +35,7 @@ p {
     font-size: 1.0em;
     line-height: 1.0em;
     margin-top: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     text-align: justify;
     text-justify: inter-word;
 }
