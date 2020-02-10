@@ -14,7 +14,7 @@ nav ul li, header ul li { font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sa
 
 nav ul li, footer ul li { font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; padding: 0px; margin-right: 20px; list-style: none; display: inline; font-size: 1.15em; font-weight: bold; }
 
-a { color: #999999; text-decoration: none; }
+a { color: #999999; text-decoration: none; font-family:'Helvetica', 'HelveticaNeue', 'Arial', 'Sans-Serif'; font-style: normal; font-size: 16px; line-height: 25px; text-align: justify; text-justify: inter-word; }
 	
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #999999; }
