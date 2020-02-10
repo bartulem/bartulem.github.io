@@ -60,4 +60,5 @@ img.rounded-corners {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    text-align: center;
 }
