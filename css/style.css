@@ -29,7 +29,7 @@ img.custom { margin-bottom: 30px; }
 
 .science, .inexile, .resources, .error { margin-bottom: 30px; }
 
-.nav-pills li { margin-left: 5px; } 
+.nav-pills li { margin-left: 10px; } 
 
 /* science */
 iframe {font-family: 'Merriweather', Georgia, Times; font-size: 16px;}
