@@ -1,13 +1,11 @@
 ---
 layout: post
 description: in exile
-title: "The Site Is Launched"
-date: 2020-02-15
+title: "the site is launched"
+author: bartulem
+date: 2020-02-16
 ---
 
-I'm thrilled the site is launched, but there's a lot of work ahead. In this blog section I intend to unleash the non-scientific
-aspect of my being. Stay tuned.
+A long time coming, but my personal site is officially in operation. Poke your nose in, comment and do suggest how I can improve the content. Thanks for visiting.
 
-Adding a second paragraph to check something.
-
-And a third.
+![Jonah being himself](/img/jonah.gif "per aspera ad astra")
