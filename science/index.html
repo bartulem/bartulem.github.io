@@ -6,11 +6,11 @@ category: science
 description: science
 ---
 
-{% for post in site.sciposts %}
+{% for post in site.posts %}
   {% if post.categories contains 'science' %}
         <div class="post">
 
-              {% include scipost-list.html %}
+              {% include post-list.html %}
 			
         </div>
   {% endif %}
