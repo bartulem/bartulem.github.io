@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>in exile</title>
+	<title>science</title>
 	<link href="http://bartulem.github.io/science/atom.xml" rel="self"/>
 	<link href="http://bartulem.github.io/science"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
