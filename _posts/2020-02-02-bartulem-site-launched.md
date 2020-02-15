@@ -10,7 +10,7 @@ A long time coming, but my personal site is officially in operation. Poke your n
 <br>
 <p align="center">
   <figure>
-    <img class="img-custom" alt="jonah" src="img/jonah.gif"/>
+    <img class="img-custom" alt="jonah" src="/img/jonah.gif"/>
     <figcaption>per aspera ad astra</figcaption>
   </figure>
 </p>
