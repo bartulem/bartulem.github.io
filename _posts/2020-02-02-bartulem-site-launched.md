@@ -10,5 +10,6 @@ A long time coming, but my personal site is officially in operation. Poke your n
 <br>
 <p class="text-center">
   <img class="img-custom" alt="jonah" src="/img/jonah.gif"/>
+  <br>
   <caption align="bottom">per aspera ad astra</caption>
 </p>
