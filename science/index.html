@@ -5,8 +5,11 @@ title: science
 category: science
 description: science
 ---
-	<div class="post">
+{% raw %}
+{% for post in site.sciposts %}
+  {% if post.categories contains 'science' %}
+    <div class="post">
 
-     			{% include scipost-list.html %}
+      {% include scipost-list.html %}
 			
-	</div>
+    </div>
