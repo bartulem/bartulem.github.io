@@ -7,11 +7,9 @@ description: science
 ---
 
 {% for post in site.posts %}
-  {% if post.categories contains 'science' %}
-        <div class="post">
+      <div class="post">
 
-              {% include scipost-list.html %}
+            {% include scipost-list.html %}
 			
-        </div>
-  {% endif %}
+      </div>
 {% endfor %}
