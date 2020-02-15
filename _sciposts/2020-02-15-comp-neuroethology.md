@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scipost
 description: science
 title: "computational neuroethology"
 author: bartulem
