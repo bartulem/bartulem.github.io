@@ -6,7 +6,7 @@ author: bartulem
 date: 2020-02-16
 ---
 
-A long time coming, but my personal site is officially in operation. Poke your nose in, comment and do suggest how I can improve the content.
+A long time coming, but my personal site is officially in operation. Poke your nose in, feel free to comment and suggest how I can improve the overall appearance.
 
 This section will host mainly private content, sometimes in English, sometimes in Croatian, depending on the mood and targeted audience. Thanks for visiting.
 
