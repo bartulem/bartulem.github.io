@@ -14,7 +14,9 @@ layout: feed
 		<email>mimica.bartul@gmail.com</email>
 	</author>
 
-	{% for post in site.sciposts %}
+	{% raw %}
+    	{% for post in site.sciposts %}
+    	{% if post.categories contains 'science' %}
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://bartulem.github.io{{ post.url }}"/>
@@ -22,4 +24,7 @@ layout: feed
 			<id>http://bartulem.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
-	{% endfor %}
+	{% endif %}
+        {% endfor %}
+        {% endraw %}
+</feed>
