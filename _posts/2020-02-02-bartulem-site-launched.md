@@ -9,8 +9,6 @@ date: 2020-02-16
 A long time coming, but my personal site is officially in operation. Poke your nose in, comment and do suggest how I can improve the content. Thanks for visiting.
 <br>
 <p class="text-center">
-  <figure>
-    <img class="img-custom" alt="jonah" src="/img/jonah.gif"/>
-    <figcaption>per aspera ad astra</figcaption>
-  </figure>
+  <img class="img-custom" alt="jonah" src="/img/jonah.gif"/>
+  <caption align="bottom">per aspera ad astra</caption>
 </p>
