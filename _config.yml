@@ -2,4 +2,3 @@ name: bartulem
 markdown: kramdown
 permalink: /inexile/:year/:month/:day/:title
 google_analytics: UA-157587935-1
-excerpt_separator: <!--more-->
