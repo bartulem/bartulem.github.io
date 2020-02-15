@@ -1,6 +1,7 @@
 ---
 layout: post
 description: in exile
+category: in exile
 title: "the site is launched"
 author: bartulem
 date: 2020-02-16
