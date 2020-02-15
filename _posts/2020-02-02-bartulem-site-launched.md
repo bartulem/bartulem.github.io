@@ -1,5 +1,6 @@
 ---
 layout: post
+description: in exile
 title: "The Site Is Launched"
 date: 2020-02-15
 ---
