@@ -5,8 +5,15 @@ title: in exile
 category: in exile
 description: in exile
 ---
-	<div class="inexile">
 
-     			{% include post-list.html %}
+{% raw %}
+{% for post in site.posts %}
+  {% if post.categories contains 'in exile' %}
+    <div class="post">
+
+      {% include post-list.html %}
 			
-	</div>
+    </div>
+  {% endif %}
+{% endfor %}
+{% endraw %}
