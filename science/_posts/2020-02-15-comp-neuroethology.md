@@ -1,5 +1,5 @@
 ---
-layout: scipost
+layout: post
 description: science
 category: science
 title: "computational neuroethology"
