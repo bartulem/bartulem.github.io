@@ -1,6 +1,11 @@
 name: inexile
 description: bartulem's blog
 url: https://bartulem.github.io/inexile/
+
+sciname: science
+scidescription: science blog
+sciurl: https://bartulem.github.io/science/
+
 feed_items: 5
 feed_update_period: weekly
 feed_update_frequency: 1
