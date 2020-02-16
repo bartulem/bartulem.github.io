@@ -13,23 +13,31 @@
 		<sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
 		<link>{{ site.url }}</link>
 		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-		<lastBuildDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
+		<lastBuildDate>
+		{% for post in site.posts limit:1 %}
+			{% if post.categories contains 'in exile' %}
+				{{ post.date | date_to_rfc822 }}
+			{% endif %}
+		{% endfor %}
+		</lastBuildDate>
 		{% assign feed_items = site.feed_items | default: 10 %}
 		{% for post in site.posts limit:feed_items %}
-			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author.name %}
-					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
-				{% endif %}
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
-				{% else %}
-					<description>{{ post.content | xml_escape }}</description>
-				{% endif %}
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-			</item>
+			{% if post.categories contains 'in exile' %}
+				<item>
+					<title>{{ post.title | xml_escape }}</title>
+					{% if post.author.name %}
+						<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
+					{% endif %}
+					{% if post.excerpt %}
+						<description>{{ post.excerpt | xml_escape }}</description>
+					{% else %}
+						<description>{{ post.content | xml_escape }}</description>
+					{% endif %}
+					<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+					<link>{{ site.url }}{{ post.url }}</link>
+					<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>			
+				</item>
+			{% endif %}
 		{% endfor %}
 	</channel>
 </rss>
