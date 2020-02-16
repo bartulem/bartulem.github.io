@@ -7,4 +7,4 @@ author: bartulem
 date: 2020-02-15
 ---
 
-To be continued.
+Coming soon.
