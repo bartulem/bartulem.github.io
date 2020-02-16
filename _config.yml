@@ -1,4 +1,10 @@
-name: bartulem
+name: inexile
+description: BM's existential musings
+url: https://bartulem.github.io/inexile/
+feed_items: 5
+feed_update_period: weekly
+feed_update_frequency: 1
+
 markdown: kramdown
 permalink: /inexile/:year/:month/:day/:title
 google_analytics: UA-157587935-1
