@@ -7,6 +7,10 @@ author: bartulem
 date: 2020-02-23
 ---
 
-Eric the king.
+<div id="content">
+  <p> Eric the King. </p>
+</div>
 
-Long live king Eric.
+<div id="content2">
+  <p> Long live the king. </p>
+</div>
