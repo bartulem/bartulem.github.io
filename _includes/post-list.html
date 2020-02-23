@@ -5,7 +5,7 @@
           <li>
             <span>{{ post.date | date_to_string }} | </span> <a href="{{ post.url }}">{{ post.title }}</a>
 
-            <p>{{ post.excerpt | strip_html }}</p>
+            <p>{{ post.excerpt | markdownify | strip_html | markdownify }}</p>
           </li>
         </ul>
       {% endif %}
