@@ -5,8 +5,6 @@ category: in exile
 title: "the site is launched"
 author: bartulem
 date: 2020-02-23
----
-
 content: Eric Cantona is God.
-
 content2: Long live the king.
+---
