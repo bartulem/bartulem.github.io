@@ -7,7 +7,7 @@ author: bartulem
 date: 2020-02-23
 ---
 
-<div class="row marketing">
+<div class="postbody">
 	<div class="col-sm-4">
 	<img  class="img-custom" alt="le dieu" src="/img/ledieu.png">
 	</div>
