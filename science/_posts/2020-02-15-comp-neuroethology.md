@@ -1,6 +1,6 @@
 ---
 layout: post
-description: On behavior, neuroscience behind behavior and why one would care
+description: On behavior, the neuroscience behind behavior and why one would care.
 category: science
 title: "computational neuroethology"
 author: bartulem
