@@ -1,10 +1,10 @@
 ---
 layout: post
-description: science
+description: On behavior, neuroscience behind behavior and why one would care
 category: science
 title: "computational neuroethology"
 author: bartulem
 date: 2020-02-15
 ---
 
-Coming soon.
+Under construction.
