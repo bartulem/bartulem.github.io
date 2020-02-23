@@ -7,10 +7,10 @@ author: bartulem
 date: 2020-02-23
 ---
 
-<div id="content">
+<div class="col-sm-4">
   <p> Eric the King. </p>
 </div>
 
-<div id="content2">
+<div class="col-sm-8">
   <p> Long live the king. </p>
 </div>
