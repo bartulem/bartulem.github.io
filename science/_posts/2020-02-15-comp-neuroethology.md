@@ -7,4 +7,4 @@ author: bartulem
 date: 2020-02-15
 ---
 
-Under construction.
+For all animals, behavior is the interface between 
