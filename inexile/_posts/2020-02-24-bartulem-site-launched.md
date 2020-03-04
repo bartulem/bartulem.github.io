@@ -4,7 +4,7 @@ description: /the who, what, why and else of this platform.
 category: in exile
 title: "the site is launched"
 author: bartulem
-date: 2020-02-24
+date: 2020-03-05
 ---
 
 <div class="row">
