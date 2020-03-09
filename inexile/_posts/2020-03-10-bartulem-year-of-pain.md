@@ -12,7 +12,7 @@ I've suffered from [tension headaches](https://www.nhs.uk/conditions/tension-hea
 So if you ever wondered what it was like to be me (in 2019), take a look at the interactive plot below. You can see for each day of the year (temperature plot) or each date of the year (wind speed & precipitation plots) what the Trondheim measurement was and whether I had a headache (black dots; oouch!).
 
 <p class="text-center">
-  <iframe src="https://chart-studio.plot.ly/~bartulm/8.embed" width="1200" height="1000" align="center" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://chart-studio.plot.ly/~bartulm/8.embed" width="1200" height="1000" align="middle" frameborder="0" scrolling="no"></iframe>
 </p>
 
 Let me know if you have any suggestions on how to analyze this data more thoroughly. 
