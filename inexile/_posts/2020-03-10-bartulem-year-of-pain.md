@@ -16,4 +16,4 @@ So if you ever wondered what it was like to be me (in 2019), take a look at the 
 </p>
 
 <br/>
-Let me know if you have any suggestions on how to analyze this data further. 
+Let me know if you have any suggestions on how to analyze this data further. The code to generate the plot can be found <a href="https://github.com/bartulem/headache-tracker" target="_blank">here</a>.
