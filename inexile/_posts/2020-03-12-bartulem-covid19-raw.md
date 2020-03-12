@@ -10,7 +10,7 @@ date: 2020-03-12
 As the pandemic rages, thanks to <a href="https://ourworldindata.org/" target="_blank">ourworldindata</a>, we can keep monitoring how the situation is developing around the world (on a daily basis).
 
 In any case, take care of yourselves:
-1. clean your hands often (use a sanitizer that's 60% ethanol)
+1. clean your hands often (use a sanitizer that's at least 60% ethanol)
 2. avoid touching your face
 3. avoid close contact with others
 4. stay home if you're sick
