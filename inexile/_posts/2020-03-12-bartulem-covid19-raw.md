@@ -10,5 +10,5 @@ date: 2020-03-12
 As the pandemic rages, thanks to <a href="https://ourworldindata.org/" target="_blank">ourworldindata</a>, we can keep monitoring how the situation is developing around the world (on a daily basis).
 
 <p class="text-center">
-  <iframe src="https://chart-studio.plot.ly/~bartulm/16" width="800" height="800" align="left" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://chart-studio.plot.ly/~bartulm/16" width="800" height="2000" align="left" frameborder="0" scrolling="no"></iframe>
 </p>
