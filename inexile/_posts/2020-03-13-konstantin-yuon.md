@@ -7,7 +7,7 @@ author: bartulem
 date: 2020-03-13
 ---
 <br/>
-Konstantin Yuon was an exceptionally gifted Russian painter who I accidentally uncovered a couple of years ago, while browsing through some early Soviet art. Now I almost feel ashamed I hadn't known about him before. 
+Konstantin Yuon was an exceptionally gifted Russian painter whom I accidentally uncovered a couple of years ago, while browsing through some early Soviet art. Now I almost feel ashamed I hadn't known about him before. 
 
 <p class="text-center">
   <img class="img-custom" alt="yuon1" src="/img/yuon1.png" height="400" width="700"/>
