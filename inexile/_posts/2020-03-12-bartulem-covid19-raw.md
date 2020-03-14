@@ -17,7 +17,7 @@ In any case, take care of yourselves:
 5. clean & disinfect frequently touched surfaces daily
 
 <p class="text-center">
-  <iframe src="https://chart-studio.plot.ly/~bartulm/22" width="800" height="2000" align="left" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://chart-studio.plot.ly/~bartulm/28" width="800" height="2000" align="left" frameborder="0" scrolling="no"></iframe>
 </p>
 
-Plot last updated: March 13th
+Plot last updated: March 14th
