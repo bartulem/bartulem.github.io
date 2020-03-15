@@ -18,4 +18,6 @@ In any case, take care of yourselves:
 
 <body style="display: flex; position: relative; margin: 0; justify-content: left;">
     <iframe src="https://chart-studio.plot.ly/~bartulm/64" width="700" height="500" frameborder="0"></iframe>
+    <br/>
+    <iframe src="https://chart-studio.plot.ly/~bartulm/66" width="700" height="500" frameborder="0"></iframe>
 </body>
