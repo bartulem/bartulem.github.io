@@ -16,5 +16,6 @@ In any case, take care of yourselves:
 4. stay home if you're sick
 5. clean & disinfect frequently touched surfaces daily
 
-<iframe src="https://chart-studio.plot.ly/~bartulm/54" width="2000" height="500" align="left" frameborder="0" scrolling="no"></iframe>
-
+<div align="left">
+    <iframe src="https://chart-studio.plot.ly/~bartulm/54" width="2000" height="500" frameborder="0" scrolling="no"></iframe>
+</div>
