@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scipost
 description: /on behavior, the (neuro)science of behavior and why one would care.
 category: science
 title: "computational neuroethology"
