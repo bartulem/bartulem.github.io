@@ -11,5 +11,5 @@ feed_update_period: weekly
 feed_update_frequency: 1
 
 markdown: kramdown
-permalink: /:categories/:year/:month/:day/:title
+permalink: pretty
 google_analytics: UA-157587935-1
