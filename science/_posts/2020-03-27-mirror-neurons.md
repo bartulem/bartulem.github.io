@@ -18,26 +18,26 @@ Briefly, we used optical imaging to sample single cell activity from parietal an
     <img class="img-custom" alt="mirrorfig0" src="/img/mirror_fig0.gif" height="200" width="350">
     <img class="img-custom" alt="mirrorfig1" src="/img/mirror_fig1.gif" height="200" width="350"> 
     <br/>
-    <figcaption>left, 1p calcium imaging; right, the pellet-reasching task.</figcaption>
+    <caption>fig1: left, 1p calcium imaging; right, the pellet-reasching task.</caption>
   </figure>
 </p>
 
 We evaluated the neurons' tuning properties in different ways. The behaviors of animals in both conditions were carefully and extensively quantified. These detailed analyses revealed potentially important differences between the coding of action execution, as opposed to that of action observation (see figure below: left). Even at the population level, the activity was better clustered in hyperspace when the animals were freely performing the actions, compared to when they were head-fixed and observing a sibling (see figure below: right). Therefore, in this project, we failed to demonstrate the existence of mirror neurons in the rodent associative cortices.
 
 <p class="text-center">
-  <img class="img-custom" alt="mirrorfig2" src="/img/mirror_fig2.png" height="400" width="700"/>
+  <img class="img-custom" alt="mirrorfig2" src="/img/mirror_fig2.png" height="300" width="700"/>
   <br/>
-  <caption align="bottom">left, the activity of all the grasping tuned neurons where responses are aligned to behavior onset and lighter color represent higher activity; right, 2D embedding of the population activity across 6 recording sessions of one animal, behaviors are color-coded and images depict what the animal was doing in that particular time point.</caption>
+  <caption align="bottom">fig2: left, the activity of all the grasping tuned neurons where responses are aligned to behavior onset and lighter color represent higher activity; right, 2D embedding of the population activity across 6 recording sessions of one animal, behaviors are color-coded and images depict what the animal was doing in that particular time point.</caption>
 </p>
 
-The negative result outcome could, of course, be interpreted in different ways, and it led us to reflect on the limitations of our work. Some of these limitations were clear from the outset and some became more apparent during the review process (thus, we appreciate our reviewers' and editors' comments). To simplify, I would just point out the two main ones:
+The negative result outcome could, of course, be interpreted in different ways, and it led us to reflect on the limitations of our work. Some of these limitations were clear from the outset and some became more apparent during the review process (thus, we appreciate our reviewers' and editors' comments). To simplify, I would just elaborate on the two main ones.
 
 **How do you know that mice can see sufficiently well, given what we know about their visual system?** This is a fair point, and we attempted to address it by showing that mice respond (both neurally and behaviorally, see figure below) to visual cues at these distances (&lt;15cm), and also by tracking their pupils and taking that covariate into account in our analyses. It is also worthy to point out that there is a big shift towards studying the mouse visual system, with the ultimate goal of understanding how vision works generally. This comes with its caveats, but also its strengths.
 
 <p class="text-center">
-  <img class="img-custom" alt="mirrorfig2" src="/img/mirror_fig3.png" height="400" width="700"/>
+  <img class="img-custom" alt="mirrorfig2" src="/img/mirror_fig3.png" height="250" width="700"/>
   <br/>
-  <caption align="bottom">parietal neurons' activity was visually driven by the object in front of the head-fixed animal.</caption>
+  <caption align="bottom">fig3: parietal neurons' activity was visually driven by the object in front of the head-fixed animal.</caption>
 </p>
 
 **Why not study more ethologically relevant behaviors than grasping, which may not be important in the social life of mice?** This is another astute point which should be considered before similar undertakings in the future. In our defense, we took into account all the behaviors the animals performed in the pellet reaching task, not just grasping for food. Our approach was undoubtedly motivated by the early primate studies and we wanted to draw a parallel between the studied brain areas and the behavior across species, but this may not have been the best strategy. Mice value social stimuli differently from primates, such that a completely different set of behaviors, say those related to the maternal instincts, might have been more apt for the purpose of our explorations.
