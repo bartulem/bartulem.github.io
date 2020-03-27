@@ -24,7 +24,7 @@ Briefly, we used optical imaging to sample single cell activity from parietal an
 
 We evaluated the neurons' tuning properties in different ways. The behaviors of animals in both conditions were carefully and extensively quantified. These detailed analyses revealed potentially important differences between the coding of action execution, as opposed to that of action observation (see figure below: left). Even at the population level, the activity was better clustered in hyperspace when the animals were freely performing the actions, compared to when they were head-fixed and observing a sibling (see figure below: right). Therefore, in this project, we failed to demonstrate the existence of mirror neurons in the rodent associative cortices.
 
-<p class="text-center" style="font-size:11px">
+<p class="text-center" style="font-size:15px">
   <img class="img-custom" alt="mirrorfig2" src="/img/mirror_fig2.png" height="300" width="700"/>
   <br/>
   <caption align="bottom">fig2: left, the activity of all the grasping tuned neurons where responses are aligned to behavior onset and lighter color represent higher activity; right, 2D embedding of the population activity across 6 recording sessions of one animal, behaviors are color-coded and images depict what the animal was doing in that particular time point.</caption>
@@ -34,7 +34,7 @@ The negative result outcome could, of course, be interpreted in different ways, 
 
 **How do you know that mice can see sufficiently well, given what we know about their visual system?** This is a fair point, and we attempted to address it by showing that mice respond (both neurally and behaviorally, see figure below) to visual cues at these distances (&lt;15cm), and also by tracking their pupils and taking that covariate into account in our analyses. It is also worthy to point out that there is a big shift towards studying the mouse visual system, with the ultimate goal of understanding how vision works generally. This comes with its caveats, but also its strengths.
 
-<p class="text-center" style="font-size:60%">
+<p class="text-center" style="font-size:15px">
   <img class="img-custom" alt="mirrorfig2" src="/img/mirror_fig3.png" height="270" width="700"/>
   <br/>
   <caption align="bottom">fig3: parietal neurons' activity was visually driven by an object in front of the head-fixed animal.</caption>
