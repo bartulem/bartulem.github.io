@@ -13,7 +13,7 @@ So, we have cells in our brains that seem to respond similarly when we, say, gra
 
 Briefly, we used optical imaging to sample single cell activity from parietal and secondary motor cortices of mice repeatedly performing a freely moving version of the pellet-reaching task and observing their siblings doing the same while they were being head-fixed (check out the animation below to see what this actually looked like).
 
-<p class="text-center" style="font-size:60%">
+<p class="text-center" style="font-size:11px">
   <figure class="half" style="display:flex">
     <img class="img-custom" alt="mirrorfig0" src="/img/mirror_fig0.gif" height="200" width="350">
     <img class="img-custom" alt="mirrorfig1" src="/img/mirror_fig1.gif" height="200" width="350"> 
@@ -24,7 +24,7 @@ Briefly, we used optical imaging to sample single cell activity from parietal an
 
 We evaluated the neurons' tuning properties in different ways. The behaviors of animals in both conditions were carefully and extensively quantified. These detailed analyses revealed potentially important differences between the coding of action execution, as opposed to that of action observation (see figure below: left). Even at the population level, the activity was better clustered in hyperspace when the animals were freely performing the actions, compared to when they were head-fixed and observing a sibling (see figure below: right). Therefore, in this project, we failed to demonstrate the existence of mirror neurons in the rodent associative cortices.
 
-<p class="text-center" style="font-size:60%">
+<p class="text-center" style="font-size:11px">
   <img class="img-custom" alt="mirrorfig2" src="/img/mirror_fig2.png" height="300" width="700"/>
   <br/>
   <caption align="bottom">fig2: left, the activity of all the grasping tuned neurons where responses are aligned to behavior onset and lighter color represent higher activity; right, 2D embedding of the population activity across 6 recording sessions of one animal, behaviors are color-coded and images depict what the animal was doing in that particular time point.</caption>
