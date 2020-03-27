@@ -17,8 +17,6 @@ Briefly, we used optical imaging to sample single cell activity from parietal an
   <figure class="half" style="display:flex">
     <img class="img-custom" alt="mirrorfig0" src="/img/mirror_fig0.gif" height="200" width="350">
     <img class="img-custom" alt="mirrorfig1" src="/img/mirror_fig1.gif" height="200" width="350"> 
-    <br/>
-    <caption align="bottom">fig1: left, 1p calcium imaging; right, the pellet-reasching task.</caption>
   </figure>
 </p>
 
