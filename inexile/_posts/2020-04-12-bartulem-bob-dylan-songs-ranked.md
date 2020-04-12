@@ -12,30 +12,39 @@ I put this together at the bequest of my father. However, it was difficult to do
 **Oxford Town** (album: Freewhelin')
 <br/>
 /the rhythm of this tune is reminiscent of being half whimsical and half grim about some uncomfortable truth.
+<br/>
 **It's All Over Now, Baby Blue** (album: The Real Royal Albert Hall 1966 Concert)
 <br/>
 /for most it is a pipe dream but some people are able to give a pep talk to themselves during self-flagellation.
+<br/>
 **Queen Jane Approximately** (album: Highway 61 Revisited)
 <br/>
 /how sharp is the contrast between being famous beyond recognition and privately seeking solitude?
+<br/>
 **Sad-Eyed Lady of the Lowlands** (album: Blonde On Blonde)
 <br/>
 /this is what it must feel like when you start writing a poem at 1am completely worn out and finish it at 7am. successfully.
+<br/>
 **Only a Pawn in Their Game** (album: The Times They Are a-Changin')
 <br/>
 /the civil rights movement had many anthems, but only needed this one.
+<br/>
 **I Want You** (album: Blonde On Blonde)
 <br/>
 /don't know what impresses more, the organ build-up in the middle eight or how the song makes me imagine a thousand flares lighting up in the sky.
+<br/>
 **It Takes a Lot to Laugh, It Takes a Train to Cry** (album: Highway 61 Revisited)
 <br/>
 /trains are underrated & the tempo of the song is apt for dancing.
+<br/>
 **Not Dark Yet** (album: Time Out of Mind)
 <br/>
 /loneliness toys with the mind such that it can sometimes obscure the border between a solar eclipse & death.
+<br/>
 **Mr. Tambourine Man** (album: The Real Royal Albert Hall 1966 Concert)
 <br/>
 /nothing to do with drugs, this is one of the best songs written about depression (the harmonica solo is on another dimension).
+<br/>
 **Visions of Johanna** (album: The Real Royal Albert Hall 1966 Concert)
 <br/>
 /how do you reconcile the carnal & the idyllic, the art and the interpretation? you don't.
