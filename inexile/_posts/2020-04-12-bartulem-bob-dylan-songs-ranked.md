@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /the ranking of all dylan rankings
-category: inexile
+category: in exile
 title: "my top 10 Bob Dylan songs"
 author: bartulem
 date: 2020-04-12
