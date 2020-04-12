@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /covid-19 (raw data).
-category: in exile
+category: inexile
 title: "covid-19 raw"
 author: bartulem
 date: 2020-03-12
