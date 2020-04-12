@@ -2,6 +2,7 @@
 layout: post
 description: /on behavior, the (neuro)science of behavior and why one would care.
 category: science
+catname: science
 title: "computational neuroethology"
 author: bartulem
 date: 2020-03-05

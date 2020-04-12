@@ -1,6 +1,6 @@
 <div class="postlist">
     {% for post in site.posts %}
-      {% if post.categories contains 'science' %}
+      {% if post.catname contains 'science' %}
         <ul class="listnotes list-unstyled">
           <li>
             <span>{{ post.date | date_to_string }} | </span> <a href="{{ post.url }}">{{ post.title }}</a>
