@@ -5,7 +5,7 @@ category: inexile
 catname: in exile
 title: "covid-19 quiz"
 author: bartulem
-date: 2020-03-12
+date: 2020-09-04
 ---
 <br/>
 The pandemic timeline is plotted below for three separate countries. One I currently work/reside in, one I'm currently on holiday in and one I'm supposed to re-locate to in the near future. I'll let you work out which is which.
