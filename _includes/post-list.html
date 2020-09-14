@@ -19,9 +19,9 @@
     <span class="previous">previous</span>
   {% endif %}
   <span class="sep">
-    |
+      <a> | </a>
   </span>
-  <span class="page_number ">
+  <span class="page_number">
     Page: {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
   {% if paginator.next_page %}
@@ -30,6 +30,4 @@
     <span class="next ">next</span>
   {% endif %}
 </div>
-
-.pagination .page_number  { float:right }
 
