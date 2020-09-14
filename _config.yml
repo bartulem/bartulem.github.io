@@ -1,7 +1,6 @@
 name: inexile
 description: bartulem's blog
 url: https://bartulem.github.io/inexile/
-paginate: 5
 
 sciname: science
 scidescription: science blog
