@@ -14,13 +14,10 @@ markdown: kramdown
 permalink: pretty
 google_analytics: UA-157587935-1
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-paginate-multiple
-exclude:
-  - Gemfile
-  - Gemfile.lock
 
 paginate_multiple:
   - paginate: 5
