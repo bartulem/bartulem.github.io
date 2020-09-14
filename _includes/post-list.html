@@ -1,5 +1,5 @@
 <div class="postlist">
-    {% for post in paginator.posts %}
+    {% for post in paginator.posts | where: "catname", "in exile" %}
       {% if post.catname contains 'in exile' %}
         <ul class="listnotes list-unstyled">
           <li>
@@ -8,7 +8,7 @@
             <p>{{ post.description }}</p>
           </li>
         </ul>
-      {% endif %}s
+      {% endif %}
     {% endfor %}
 </div>
 
