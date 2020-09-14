@@ -1,8 +1,10 @@
 name: inexile
 description: bartulem's blog
 url: https://bartulem.github.io/inexile/
-paginate_path: "/inexile/page:num/"
-paginate: 5
+paginate_multiple:
+  - paginate: 5
+    paginate_path: "/page:num/"
+    sub_dir: "/inexile"
 
 sciname: science
 scidescription: science blog
