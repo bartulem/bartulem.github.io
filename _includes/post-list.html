@@ -1,13 +1,15 @@
 <div class="postlist">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       {% if post.catname contains 'in exile' %}
-        <ul class="listnotes list-unstyled">
-          <li>
-            <span>{{ post.date | date_to_string }} | </span> <a href="{{ post.url }}">{{ post.title }}</a>
+        {% for post in paginate.posts %}
+            <ul class="listnotes list-unstyled">
+               <li>
+                  <span>{{ post.date | date_to_string }} | </span> <a href="{{ post.url }}">{{ post.title }}</a>
 
-            <p>{{ post.description }}</p>
-          </li>
-        </ul>
+                  <p>{{ post.description }}</p>
+               </li>
+            </ul>
+        { endfor %}    
       {% endif %}
     {% endfor %}
 </div>
@@ -27,7 +29,7 @@
     <span class="next ">next</span>
   {% endif %}
   <span class="page_number" style="width: 100%;text-align: right">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    page {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
 </div>
 
