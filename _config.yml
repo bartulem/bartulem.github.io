@@ -3,7 +3,7 @@ description: bartulem's blog
 url: https://bartulem.github.io/inexile/
 paginate_multiple:
   - paginate: 5
-    paginate_path: "/page:num/"
+    paginate_path: "inexile/page:num/"
     sub_dir: "/inexile"
 
 sciname: science
