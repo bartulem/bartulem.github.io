@@ -14,15 +14,6 @@ markdown: kramdown
 permalink: pretty
 google_analytics: UA-157587935-1
 
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-paginate-multiple
+paginate: 5
+paginate_path: "/inexile/page:num/"
 
-paginate_multiple:
-  - paginate: 5
-    paginate_path: "/inexile/page:num/"
-    sub_dir: "/inexile"
-  - paginate: 5
-    paginate_path: '/science/page:num/'
-    sub_dir: '/science'
