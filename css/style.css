@@ -29,7 +29,7 @@ img.custom { margin-bottom: 30px; }
 
 .science, .inexile, .resources, .error { margin-bottom: 30px; }
 
-.pagination .page_number { float: right; }
+.pagination .page_number { text-align: right; }
 
 .nav-pills li { margin-left: 15px; } 
 
