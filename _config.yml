@@ -1,10 +1,12 @@
 name: inexile
 description: bartulem's blog
 url: https://bartulem.github.io/inexile/
+paginate: 5
 
 sciname: science
 scidescription: science blog
 sciurl: https://bartulem.github.io/science/
+paginate: 5
 
 feed_items: 5
 feed_update_period: weekly
