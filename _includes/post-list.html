@@ -1,5 +1,5 @@
 <div class="postlist">
-    {% for post in site.posts}
+    {% for post in paginator.posts}
       {% if post.catname contains 'in exile' %}
         <ul class="listnotes list-unstyled">
           <li>

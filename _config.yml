@@ -1,3 +1,11 @@
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-paginate-multiple
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
 name: inexile
 description: bartulem's blog
 url: https://bartulem.github.io/inexile/
