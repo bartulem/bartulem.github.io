@@ -14,6 +14,3 @@ markdown: kramdown
 permalink: pretty
 google_analytics: UA-157587935-1
 
-paginate: 5
-paginate_path: "/inexile/page:num/"
-
