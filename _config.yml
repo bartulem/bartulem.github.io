@@ -14,14 +14,12 @@ markdown: kramdown
 permalink: pretty
 google_analytics: UA-157587935-1
 
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-paginate-multiple
-exclude:
-  - Gemfile
-
-paginate: 5
-paginate_path: "/inexile/page:num/"
+pagination: 
+  - paginate:
+      path: /inexile/page:num/
+      per_page: 5
+  - paginate:
+      path: /science/page:num/
+      per_page: 5
 
 
