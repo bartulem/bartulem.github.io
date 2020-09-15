@@ -12,16 +12,11 @@ feed_update_frequency: 1
 
 markdown: kramdown
 google_analytics: UA-157587935-1
-
-plugins:
-  - jekyll-paginator
+permalink: pretty
 
 pagination: 
   - paginate:
       path: /inexile/page:num/
-      per_page: 5
-  - paginate:
-      path: /science/page:num/
       per_page: 5
 
 
