@@ -21,4 +21,7 @@ gems:
 exclude:
   - Gemfile
 
+paginate: 5
+paginate_path: "/inexile/page:num/"
+
 
