@@ -1,31 +1,13 @@
 <div class="postlist">
-    {% assign inexile_posts = site.posts | where_exp: "post", "post.tag == 'in exile'" %}
-    {% for post in paginator.inexile_posts %}
-      <ul class="listnotes list-unstyled">
-        <li>
-          <span>{{ post.date | date_to_string }} | </span> <a href="{{ post.url }}">{{ post.title }}</a>
+    {% for post in site.posts %}
+      {% if post.tag == 'in exile' %}
+        <ul class="listnotes list-unstyled">
+          <li>
+            <span>{{ post.date | date_to_string }} | </span> <a href="{{ post.url }}">{{ post.title }}</a>
 
-          <p>{{ post.description }}</p>
-        </li>
-      </ul>
+            <p>{{ post.description }}</p>
+          </li>
+        </ul>
+      {% endif %}
     {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">previous</a>
-  {% else %}
-    <span class="previous">previous</span>
-  {% endif %}
-  <span class="sep">
-      <a>&nbsp;|&nbsp;</a>
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">next</a>
-  {% else %}
-    <span class="next ">next</span>
-  {% endif %}
-  <span class="page_number" style="width: 100%;text-align: right">
-    page {{ paginator.page }} / {{ paginator.total_pages }}
-  </span>
 </div>
