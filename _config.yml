@@ -15,7 +15,7 @@ google_analytics: UA-157587935-1
 permalink: pretty
 
 paginate: 5
-paginate_path: /science/page:num/
+paginate_path: /inexile/page:num/
 
 
 
