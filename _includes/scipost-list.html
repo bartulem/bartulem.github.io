@@ -1,5 +1,5 @@
 <div class="postlist">
-    {% assign sci_posts = site.posts | where: site.tag == 'science' %}
+    {% assign sci_posts = site.posts | where: post.tag == 'science' %}
     {% for post in sci_posts %}
       <ul class="listnotes list-unstyled">
         <li>
