@@ -1,6 +1,6 @@
 <div class="postlist">
     {% for category in site.categories %}
-      <h3>{{ category[0] }} | {{ category[1] }}</h3>
+      <h3>{{ category}}</h3>
       {% if category[0] == 'inexile' %}
         {% for post in paginator.category[1] %}
           <ul class="listnotes list-unstyled">
