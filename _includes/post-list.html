@@ -1,13 +1,15 @@
 <div class="postlist">
-    {% for post in paginator.posts %}
-      {% if post.catname contains 'in exile' %}
-        <ul class="listnotes list-unstyled">
-          <li>
-            <span>{{ post.date | date_to_string }} | </span> <a href="{{ post.url }}">{{ post.title }}</a>
+    {% for category in site.categories %}
+      {% if category[0] == 'inexile' %}
+        {% for post in paginator.category[1] %}
+          <ul class="listnotes list-unstyled">
+            <li>
+              <span>{{ post.date | date_to_string }} | </span> <a href="{{ post.url }}">{{ post.title }}</a>
 
-            <p>{{ post.description }}</p>
-          </li>
-        </ul>
+              <p>{{ post.description }}</p>
+            </li>
+          </ul>
+        {% endfor %}
       {% endif %}
     {% endfor %}
 </div>
