@@ -1,5 +1,6 @@
 <div class="postlist">
     {% for tag in site.tags %}
+      <h3>{{ tag[0] }}</h3>
       {% if tag[0] == 'in exile' %}
         {% for post in paginator.tag[1] %}
           <ul class="listnotes list-unstyled">
