@@ -2,7 +2,7 @@
 layout: post
 description: /the Biblical Romantic
 category: inexile
-catname: in exile
+tag: in exile
 title: "The artwork of William Blake"
 author: bartulem
 date: 2020-06-28

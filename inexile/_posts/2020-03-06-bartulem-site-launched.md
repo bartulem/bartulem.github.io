@@ -2,7 +2,7 @@
 layout: post
 description: /the who, what, why and else of this platform.
 category: inexile
-catname: in exile
+tag: in exile
 title: "the site is launched"
 author: bartulem
 date: 2020-03-05

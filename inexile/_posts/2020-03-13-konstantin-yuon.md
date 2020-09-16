@@ -2,7 +2,7 @@
 layout: post
 description: /the obscure Russian genious
 category: inexile
-catname: in exile
+tag: in exile
 title: "Konstantin Yuon"
 author: bartulem
 date: 2020-03-13

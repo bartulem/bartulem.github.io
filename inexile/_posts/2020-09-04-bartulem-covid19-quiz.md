@@ -2,7 +2,7 @@
 layout: post
 description: /covid-19 quiz
 category: inexile
-catname: in exile
+tag: in exile
 title: "covid-19 quiz"
 author: bartulem
 date: 2020-09-04

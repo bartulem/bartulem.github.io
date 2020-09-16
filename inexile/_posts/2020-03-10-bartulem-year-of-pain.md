@@ -2,7 +2,7 @@
 layout: post
 description: /headache & weather data (2019).
 category: inexile
-catname: in exile
+tag: in exile
 title: "a year of pain"
 author: bartulem
 date: 2020-03-10
