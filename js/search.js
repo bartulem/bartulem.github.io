@@ -43,7 +43,6 @@
       this.field('author');
       this.field('category');
       this.field('content');
-      this.field('tags');
     });
 
     for (var key in window.store) { // Add the data to lunr
