@@ -1,6 +1,6 @@
 ---
 layout: post
-description: /the Biblical Romantic
+description: /the biblical romantic
 category: write
 tags: blake, art
 title: "The artwork of William Blake"

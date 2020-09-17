@@ -1,6 +1,6 @@
 ---
 layout: post
-description: /the ranking of all dylan rankings
+description: /the ranking of all Dylan rankings
 category: write
 tags: dylan, songs
 title: "my top 10 Bob Dylan songs"
