@@ -5,7 +5,7 @@ description: (neuro)scientist
 category: (neuro)scientist
 tag: (neuro)scientist
 ---
-<form action="/search.html" method="get">
+<form action="{{ page.url | search.html }}" method="get">
   <label for="search-box"></label>
   <input type="text" id="search-box" name="query">
   <input type="submit" value="search">
