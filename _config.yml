@@ -13,9 +13,16 @@ permalink: pretty
 paginate: 5
 paginate_path: "/write/page:num/"
 
+baseurl: "/search"
+
 tipue_search:
   include:
     pages: true
+
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
 
 
 
