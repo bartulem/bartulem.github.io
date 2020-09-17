@@ -13,6 +13,8 @@ permalink: pretty
 paginate: 5
 paginate_path: "/write/page:num/"
 
+baseurl: /https://bartulem.github.io
+
 
 
 
