@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "3.5.1"
-
-gem "minima", "~> 2.0"
+gem "jekyll", ">= 3.6.3"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
