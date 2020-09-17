@@ -13,6 +13,10 @@ permalink: pretty
 paginate: 5
 paginate_path: "/write/page:num/"
 
+tipue_search:
+  include:
+    pages: true
+
 
 
 
