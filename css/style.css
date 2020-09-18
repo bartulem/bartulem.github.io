@@ -5,6 +5,10 @@ body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Geo
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
 
+ul {
+  list-style-type: none;
+}
+
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
@@ -53,39 +57,4 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	padding-top: 5.5px;
 	margin: 5px 15px 0px 0px;
 	font-family: 'Montserrat', Helvetica, sans-serif; }
-
-#searchBar {
-     font-size: 80%;
-     padding: 0.43em 0 0.57em;
-
-     #search {
-     float: right;
-
-     #searchString {
-         width: 283px;
-         border: none;
-         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
-         padding: 0.3em 0.6em;
-         background-color: #f6f5ea;
-         margin-right: 0;
-     }
-
-     #searchButton {
-         paddign: 0.3em 0.6em;
-         background-color: #0B5485;
-         border: 1px solid #f6f5ea;
-         margin-left: 0;
-         color: $white;
-         -webkit-appearance: none;
-         border-radius: 0;
-     }
-
-     #archives {
-         line-height: 2;
-         float: left;
-         color: $black;
-         text-wrap: avoid;
-     }
-     }
- }
 
