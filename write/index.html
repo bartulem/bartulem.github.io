@@ -5,7 +5,28 @@ category: write
 ---
 
 <div class="post">
-
+      
+      <div id="search-demo-container">
+      	 <input type="search" id="search-input" placeholder="search posts">
+      	 <ul id="results-container"></ul>
+      </div>
+      
       {% include post-list.html %}
+      
+      {% include scripts.html %}
+      <script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
+
+      <script>
+         window.simpleJekyllSearch = new SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+      	    resultsContainer: document.getElementById('results-container'),
+            json: '{{ site.baseurl }}/search.json',
+            searchResultTemplate: '<a href="{url}?query={query}" title="{desc}">{title}</a>',
+            noResultsText: 'No results found',
+            limit: 10,
+            fuzzy: false,
+            exclude: ['Welcome']
+         })
+      </script>
 			
 </div>
