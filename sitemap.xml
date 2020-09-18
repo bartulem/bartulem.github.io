@@ -19,12 +19,4 @@ sitemap: false
           {% endif %}
        {% endif %}
     {% endfor %}
-
-    {% for page in site.pages %}
-       {% if page.layout == 'search' %}
-          <url>
-            <loc>http://bartulem.github.io{{ page.url | remove: 'search.html' }}</loc>
-          </url>
-       {% endif %}
-    {% endfor %}
 </urlset>
