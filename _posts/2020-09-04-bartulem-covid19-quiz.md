@@ -2,7 +2,7 @@
 layout: post
 description: /covid-19 quiz
 category: write
-tags: moving, covid19
+tags: moving covid19
 title: "covid-19 quiz"
 author: bartulem
 date: 2020-09-04

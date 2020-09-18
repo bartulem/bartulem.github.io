@@ -2,7 +2,7 @@
 layout: post
 description: /the obscure Russian genious
 category: write
-tags: yuon, art
+tags: yuon art
 title: "Konstantin Yuon"
 author: bartulem
 date: 2020-03-13

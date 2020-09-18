@@ -2,7 +2,7 @@
 layout: post
 description: /the ranking of all Dylan rankings
 category: write
-tags: dylan, songs
+tags: dylan songs music
 title: "my top 10 Bob Dylan songs"
 author: bartulem
 date: 2020-04-12

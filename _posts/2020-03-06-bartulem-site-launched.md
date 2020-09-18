@@ -2,7 +2,7 @@
 layout: post
 description: /the who, what, why and else of this platform.
 category: write
-tags: intro, launch, personal
+tags: intro launch personal
 title: "the site is launched"
 author: bartulem
 date: 2020-03-05

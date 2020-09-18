@@ -2,7 +2,7 @@
 layout: post
 description: /action representation in the mouse neocortex.
 category: write
-tags: science, mirror, neurons, mice
+tags: science mirror neurons mice
 title: "mirror neurons in mice - do they exist?"
 author: <a target="_blank" href="https://twitter.com/tucetombaz">@tucetombaz</a>
 date: 2020-03-27

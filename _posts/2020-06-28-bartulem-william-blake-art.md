@@ -2,7 +2,7 @@
 layout: post
 description: /the biblical romantic
 category: write
-tags: blake, art
+tags: blake art
 title: "The artwork of William Blake"
 author: bartulem
 date: 2020-06-28
