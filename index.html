@@ -25,9 +25,10 @@ tag: (neuro)scientist
 
 <div class="grid" id="searchBar">
 	<div id="search">
-		<form role="search" method="get" action="{{ site.page }}//search/">
-  			<input id="searchString" name="searchString" placeholder="search this site" type="text">
-  			<input id="searchButton" name="googleSearchName" type="submit" value="search">
+		<form action="/search.html" method="get">
+  			<label for="search-box">search</label>
+  			<input type="text" id="search-box" name="query">
+  			<input type="submit" value="search">
 		</form>
 	</div>
 </div>
