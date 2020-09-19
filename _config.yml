@@ -10,7 +10,7 @@ markdown: kramdown
 google_analytics: UA-157587935-1
 permalink: pretty
 
-paginate: 5
+paginate: 10
 paginate_path: "/scribe/page:num/"
 
 
