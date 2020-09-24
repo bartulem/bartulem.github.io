@@ -1,6 +1,6 @@
 ---
 layout: post
-description: /headache & weather data (2019).
+description: /headache & weather data (2019)
 category: scribe
 tags: pain headache weather data
 title: "a year of pain"

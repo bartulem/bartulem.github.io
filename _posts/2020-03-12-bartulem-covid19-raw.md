@@ -1,6 +1,6 @@
 ---
 layout: post
-description: /covid-19 (raw data).
+description: /covid-19 (raw data)
 category: scribe
 tags: world covid19
 title: "covid-19 raw"

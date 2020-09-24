@@ -1,6 +1,6 @@
 ---
 layout: post
-description: /the who, what, why and else of this platform.
+description: /the who, what, why and else of this platform
 category: scribe
 tags: intro launch personal
 title: "the site is launched"
