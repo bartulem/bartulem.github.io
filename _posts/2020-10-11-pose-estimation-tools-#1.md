@@ -9,7 +9,7 @@ date: 2020-10-11
 ---
 <br/>
 <p class="text-center">
-  <img class="img-custom" alt="pe1" src="/img/pose-estimation-1.png" height="300" width="700"/>
+  <img class="img-custom" alt="pe1" src="/img/pose-estimation-1.png" height="400" width="700"/>
 </p>
 
 Schweihoff et al. <a target="_blank" href="https://www.biorxiv.org/content/10.1101/2019.12.20.884478v1"><em>bioRxiv</em></a> (2019) presented *DeepLabStream (DLS)*, a deep-learning grounded, markerless, closed-loop and real-time pose estimation tool. The framework can run experiments autonomously, as it consists of a set of user-specified modules, like timers and stimulations, but also posture-based triggers that initialize a pre-defined cascade once a certain type of pose is detected in an experiment. To test DLS, the authors trained mice on a fully automated classical second-order conditioning task. The animals were taught, in a series of conditioning stages, to associate two unknown odors (rose, vanillin) with two visual stimuli (a high contrast black and white image), which had either positive or negative valence (because they were associated either with a reward or a loud tone). The process was fully automated, e.g. the animals were presented with the initial visual stimulus only once they were heading towards the screen. As a result, mice showed a clear preference for the positive conditioned odor. The second test involved optogenetically stimulating mice injected with the indicator Cal-Light whenever their head was directed a certain way in the environment. Irrespective of the spatial location in the environment, mice were reliably stimulated when their head was at a specific angle from a reference point.
