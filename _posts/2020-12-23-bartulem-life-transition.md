@@ -2,8 +2,8 @@
 layout: post
 description: /change change change
 category: scribe
-tags: moving tranistion life
-title: "life tranistion 2021"
+tags: moving transition life
+title: "life transition 2021"
 author: bartulem
 date: 2020-12-23
 ---
