@@ -16,6 +16,12 @@ linkedin:
   title: 'LinkedIn'
   fa-icon: 'fa-linkedin-square'
 
+scholar:
+  id: 'citations?user=aUeOyr8AAAAJ&hl=en'
+  href: 'https://scholar.google.no/'
+  title: 'Scholar'
+  fa-icon: 'ai ai-google-scholar-square ai-2x'
+
 twitter:
   id: 'bartulem'
   href: 'https://www.twitter.com/'
