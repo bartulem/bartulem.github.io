@@ -2,29 +2,27 @@ email:
   id: 'bmimica@princeton.edu'
   href: 'mailto:'
   title: 'Email'
+  type: 'fa'
   fa-icon: 'fa-envelope-square'
 
 github:
   id: 'bartulem'
   href: 'https://github.com/'
   title: 'GitHub'
+  type: 'fa'
   fa-icon: 'fa-github-square'
 
 linkedin:
   id: 'bartul-mimica'
   href: 'https://www.linkedin.com/in/'
   title: 'LinkedIn'
+  type: 'fa'
   fa-icon: 'fa-linkedin-square'
-
-scholar:
-  id: 'citations?user=aUeOyr8AAAAJ&hl=en'
-  href: 'https://scholar.google.no/'
-  title: 'Scholar'
-  fa-icon: 'ai ai-google-scholar-square ai-2x'
 
 twitter:
   id: 'bartulem'
   href: 'https://www.twitter.com/'
   title: 'Twitter'
+  type: 'fa'
   fa-icon: 'fa-twitter-square'
 
