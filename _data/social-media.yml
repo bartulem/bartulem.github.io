@@ -1,1 +1,24 @@
+email:
+  id: 'bmimica@princeton.edu'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+github:
+  id: 'bartulem'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'
+
+linkedin:
+  id: 'bartul-mimica'
+  href: 'https://www.linkedin.com/'
+  title: 'Linkedin'
+  fa-icon: 'fa-linkedin-square'
+
+twitter:
+  id: 'bartulem'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
 
