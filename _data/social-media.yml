@@ -19,13 +19,6 @@ linkedin:
   type: 'fa'
   fa-icon: 'fa-linkedin-square'
 
-scholar:
-  id: 'citations?user=aUeOyr8AAAAJ&hl=en'
-  href: 'https://scholar.google.no/'
-  title: 'Scholar'
-  type: 'ai'
-  ai-icon: 'ai-google-scholar-square'
-
 twitter:
   id: 'bartulem'
   href: 'https://www.twitter.com/'
