@@ -13,5 +13,5 @@ I've collected another year's worth of headache data. The good people of <a href
 You can see for each day of the year (temperature plot) or each date of the year (snow depth & precipitation plots) what the Trondheim measurement was and whether I had a headache (black dots; oouch!). For 2021, I've switched to <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a>, as they offer much richer data I'm dynamically pulling every day (irrespective of my wordly location) using Cron.
 
 <p class="text-center">
-  <iframe src="https://chart-studio.plot.ly/~bartulm/274" width="600" height="1000" align="left" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://chart-studio.plot.ly/~bartulm/276" width="700" height="900" align="left" frameborder="0" scrolling="no"></iframe>
 </p>
