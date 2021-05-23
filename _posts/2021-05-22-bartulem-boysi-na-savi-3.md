@@ -40,24 +40,24 @@ Odjednom se oko njega stvori desetorica kršnih momaka. Okružili su ga u potpun
 
 Već je svanulo. Službenici u Petrinjskoj kuhaju jutarnju kavu. Detektiv Marić zgrabi snop papira ispred sebe na stolu i upita tajnicu "Jesu to oni?" Na potvrdno kimanje, odloži šalicu i zaputi se put klupe na kojoj je sjedilo dvoje preplašenih, starijih ljudi. <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Dobar dan, vi ste zasigurno Zoranovi roditelji, hvala što ste došli tako brzo. Izvolite za <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mnom. Prolazili su hodnicima u kojima su ispred raznih vrata sjedile grupe ljudi koji međusobno <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nisu razgovarali. Tu i tamo bi netko stariji zakašljao ili bi prijateljice noći izvadile <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ogledalce koje bi reflektiralo svjetlo koje je ulazilo kroz visoke prozore. Hodali su dva do tri <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;koraka iza detektiva Marića, sve do stubišta koje je vodilo u podrum. Zastali u nevjerici, <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;čekali su da detektiv ishoda cijelu etapu, nakon čega im se okrenuo i obratio: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mnom. <br/>
+Prolazili su hodnicima u kojima su ispred raznih vrata sjedile grupe ljudi koji međusobno nisu razgovarali. Tu i tamo bi netko stariji zakašljao ili bi prijateljice noći izvadile ogledalce koje bi reflektiralo svjetlo koje je ulazilo kroz visoke prozore. Hodali su dva do tri koraka iza detektiva Marića, sve do stubišta koje je vodilo u podrum. Zastali u nevjerici, čekali su da detektiv ishoda cijelu etapu, nakon čega im se okrenuo i obratio: <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- On je tu dolje. Požurite. <br/>
 Detektiv je nastavio hodati duž dugog, slabo osvijetljenog podrumskog hodnika, osjećajući da ga dvojac straga prisno prati. Na samom kraju hodnika, zaustavi se ispred sobe i gestom otpusti stražara. Na pokušaj roditelja da odmah uđu u sobu, fizički im prepriječi put i kaže: <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Samo trenutak, molim. Vaš sin se nalazi u velikim problemima. Posjedovanje narkotika, vandalizam, napad <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;na službenu osobu... Naši službenici još sabiru dojmove od sinoć. Pokušali smo rekonstruirati <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;što se točno dogodilo, ali to neće biti sasvim moguće bez njegove pomoći i molim <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vas da ga omekšate ili ćemo morati pribjeći drugim sredstvima. Iz onoga što je <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;razvidno dosada, Zoran se nadrogirao i uništio svoju sobu, ispisujući na zidovima četničke grafite <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i optužujući noćnog čuvara da mu je defecirao pred očima te još kojekakve bedastoće, <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;da bi optužio naš interventni tim koji je čuvar pozvao u pomoć da su navijački huligani <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i fizički se sukobio s njima, duboko uvjeren da će ishod sukoba platiti vlastitim organima. <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ovo sve skupa čudi jer je vaš sin, po svemu sudeći, uzoran student koji nije <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;upadao u probleme pa se nadam da se ovdje radi samo o jednom bizarnom, ali <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;izoliranom incidentu. Nadam se, isto tako, da će razgovor s vama pomoći. Izvolite. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Samo trenutak, molim. Vaš sin se nalazi u velikim problemima. Posjedovanje <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;narkotika, vandalizam, napad na službenu osobu... Naši službenici još <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sabiru dojmove od sinoć. Pokušali smo rekonstruirati što se točno dogodilo, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ali to neće biti sasvim moguće bez njegove pomoći i molim <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vas da ga omekšate ili ćemo morati pribjeći drugim sredstvima. Iz onoga <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;što je razvidno dosada, Zoran se nadrogirao i uništio svoju sobu, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ispisujući na zidovima četničke grafite i optužujući noćnog čuvara da mu <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;je defecirao pred očima te još kojekakve bedastoće, da bi optužio naš <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interventni tim koji je čuvar pozvao u pomoć da su navijački huligani <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i fizički se sukobio s njima, duboko uvjeren da će ishod sukoba <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;platiti vlastitim organima. Ovo sve skupa čudi jer je vaš sin, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;po svemu sudeći, uzoran student koji nije upadao u probleme pa <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;se nadam da se ovdje radi samo o jednom bizarnom, ali izoliranom <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;incidentu. Nadam se, isto tako, da će razgovor s vama pomoći. Izvolite. <br/>
 Kad se detektiv izmakao, ušli su u sobu koja je u sredini imala samo jedan veliki kvadratni stol na koji je Zoki prislonio glavu. Ruke su mi bile iza leđa, vezane. Na vratu i rukama su se nazirale modrice i rane koje još nisu bile povijene. Majka brizne u plač nad fizičkim stanjem vlastitog djeteta, a otac ga nastavi nijemo gledati dok ne podigne glavu. <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Tata? <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Zorane, koji kurac?! <br/>
