@@ -10,7 +10,7 @@ date: 2021-05-09
 ---
 <br/>
 <p class="text-center">
-  <img class="img-custom" alt="pe1" src="/img/boysi-na-savi.png" height="500" width="700"/>
+  <img class="img-custom" alt="bns" src="/img/boysi-na-savi.png" height="500" width="700"/>
 </p>
 <br/>
 
