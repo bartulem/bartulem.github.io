@@ -12,7 +12,7 @@ ul {
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
-.header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; font-weight: normal; }
+.header, .footer, .header h3 { font-family: 'Merriweather', Georgia, Times, sans-serif; font-weight: normal; }
 
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #140202; }
