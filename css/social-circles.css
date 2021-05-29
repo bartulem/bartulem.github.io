@@ -80,10 +80,10 @@
 
 /* socialbuttons */
 a.social-button{
-	font-size:32px;
+	font-size:20px;
 	text-decoration: none;
 	display:inline-block;
-	width: .6em;height:.6em;
+	width: 1em;height:1em;
 }
 
 a.social-button.color {
