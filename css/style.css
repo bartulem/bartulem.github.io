@@ -16,7 +16,7 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #140202; }
-h3.text-muted a:hover { text-decoration: none; color: #140202; }
+h3.text-muted a:hover { text-decoration: none; color: #007bff; }
 
 img.custom { margin-bottom: 30px; }
 		
