@@ -9,16 +9,6 @@ ul {
   list-style-type: none;
 }
 
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.center a {
-    margin: 0 5px;
-}
-
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
