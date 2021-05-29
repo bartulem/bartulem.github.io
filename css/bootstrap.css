@@ -160,7 +160,7 @@ a {
 }
 
 a:hover {
-  color: #140202;
+  color: #007bff;
   text-decoration: underline;
 }
 
@@ -3116,7 +3116,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-link:hover {
-  color: #140202;
+  color: #007bff;
   text-decoration: underline;
 }
 
@@ -5006,7 +5006,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #140202;
+  color: #007bff;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -10040,7 +10040,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #140202 !important;
+  color: #007bff !important;
 }
 
 .text-secondary {
