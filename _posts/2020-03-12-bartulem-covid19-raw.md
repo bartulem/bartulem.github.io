@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /covid-19 (raw data)
-category: scribe
+category: thoughts
 tags: world covid19
 title: "covid-19 raw"
 author: bartulem

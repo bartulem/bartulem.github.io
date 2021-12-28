@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /the biblical romantic
-category: scribe
+category: thoughts
 tags: blake art
 title: "The artwork of William Blake"
 author: bartulem

@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /the who, what, why and else of this platform
-category: scribe
+category: thoughts
 tags: intro launch personal
 title: "the site is launched"
 author: bartulem

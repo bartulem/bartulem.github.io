@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /headache & weather data (2019)
-category: scribe
+category: thoughts
 tags: pain headache weather data
 title: "a year of pain"
 author: bartulem

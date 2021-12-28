@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /covid-19 quiz
-category: scribe
+category: thoughts
 tags: moving covid19
 title: "covid-19 quiz"
 author: bartulem

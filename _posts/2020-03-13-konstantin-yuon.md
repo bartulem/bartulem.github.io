@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /the obscure Russian genious
-category: scribe
+category: thoughts
 tags: yuon art
 title: "Konstantin Yuon"
 author: bartulem
