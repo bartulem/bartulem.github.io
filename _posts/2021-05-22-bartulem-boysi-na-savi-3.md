@@ -63,5 +63,5 @@ Kad se detektiv izmakao, ušli su u sobu koja je u sredini imala samo jedan veli
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Zorane, koji kurac?! <br/>
 
 <center>THE END</center>
-<center>part <a href="https://bartulem.github.io/scribe/2021/05/09/bartulem-boysi-na-savi/">1</a> <a href="https://bartulem.github.io/scribe/2021/05/15/bartulem-boysi-na-savi-2/">2</a> 3</center>
+<center>part <a href="https://bartulem.github.io/thoughts/2021/05/09/bartulem-boysi-na-savi/">1</a> <a href="https://bartulem.github.io/thoughts/2021/05/15/bartulem-boysi-na-savi-2/">2</a> 3</center>
 
