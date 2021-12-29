@@ -10,9 +10,9 @@
 
 }
 
-body { padding-top: 20px; padding-bottom: 40px; font-family: 'helveticaregular'; font-size: 16px; }
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Merriweather', Georgia, Times; font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'helveticaregular'; font-weight: 700;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Merriweather', Georgia, Times; font-weight: 700;}
 
 ul {
   list-style-type: none;
@@ -21,7 +21,7 @@ ul {
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
-.header, .footer, .header h3 { font-family: 'helveticaregular'; font-weight: normal; }
+.header, .footer, .header h3 { font-family: 'Merriweather', Georgia, Times, sans-serif; font-weight: normal; }
 
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #140202; }
@@ -45,7 +45,7 @@ img.custom { margin-bottom: 30px; }
 .nav-pills li { margin-left: 15px; }
 
 /* science */
-iframe {font-family: 'helveticaregular'; font-size: 16px; margin-left: auto; margin-right: auto}
+iframe {font-family: 'Merriweather', Georgia, Times; font-size: 16px; margin-left: auto; margin-right: auto}
 
 /* inexile */
 .about ul.list-unstyled li { line-height: 30px; text-indent: -30px; margin-left: 30px;}
@@ -65,5 +65,5 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	font-size: 24px;
 	padding-top: 5.5px;
 	margin: 5px 15px 0px 0px;
-	font-family: 'helveticaregular'; }
+	font-family: 'Montserrat', Helvetica, sans-serif; }
 
