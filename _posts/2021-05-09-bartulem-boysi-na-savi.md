@@ -13,7 +13,6 @@ date: 2021-05-09
   <img class="img-custom" alt="bns" src="/img/boysi-na-savi.png" height="500" width="700"/>
 </p>
 <br/>
-
 Srijeda predvečer, početak travnja. Zoki stoji na začelju zadnjeg vagona petice, zaglavljen u prometnom kolapsu na Savskoj. Još od Kvatrića razmišlja o večeri: burek u pekari ili menza? Ipak menza, bit če prilike za burek ovijeh dana. Čami okružen sredovječnim ženama koje razglabaju o namirnicama za uskršnji vikend, ali i okužen zagasitim plinovima beskućnika koji priča sam sa sobom na sjedalu ispred. Kroz zamagljeno staklo, sirene, trube i svjetla se izmjenjuju kao na pokretnoj traci, a Zoki budan sniva o toplom krevetu, masturbaciji i tišini. Iz polusna ga naglo prene kočenje tramvaja. Vrata se otvaraju. "Opa, eto nas", pomisli u dahu sekunde gledajući u smjeru studentskog doma Stjepan Radić, promrmlja sebi u bradu "nećemo u Prečko, kučko" i zagrabi samouvjerenim korakom van, sebeljubno ushićen ad hoc rimom i aliteracijom. 
 
 Šećući prema paviljonu, duboko je udisao proljetni zrak i pripadajuće travanjske arome, nastojeći iz primozga eliminirati doživljaje iz tramvaja. "Gle ti to, magnolije" i zastane iznenadivši se prizorom. Međutim, bez manira i uvertire, sustižu ga ruka i glas straga: <br/>
