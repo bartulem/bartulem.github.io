@@ -22,7 +22,7 @@ ul {
 
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
-blockquote p1 { font-size: 12px; line-height: 10px; }
+blockquote p1 { font-size: 12px; line-height: 12px; }
 
 /* Masthead */
 .header, .footer, .header h3 { font-family: 'Nunito Sans'; font-weight: normal; }
