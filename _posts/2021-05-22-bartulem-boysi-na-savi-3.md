@@ -13,7 +13,6 @@ date: 2021-05-22
   <img class="img-custom" alt="bns3" src="/img/boysi-na-savi-3.png" height="500" width="700"/>
 </p>
 <br/>
-
 Znao je da se bliži trenutak konačnog obračuna. Koja sekunda ga je dijelila od pasivnog poraza, onda kad bouncer otključa bravu svojim univerzalnim ključem. Sjeti se balvan revolucije, Mile Martića i separatizma. Omota si kamuflažnu traku oko čela i nadljudskim naporom pogura oba ormara do vrata, urlajući "Ovo je Krajina!" u procesu. Pri ruci mu se našla i cimerova limenka grafita pa je odlučio urediti zidove prigodnom tematikom. Dok je stilizirao ćirilično S i slušao kako se čuvar muči ući u sobu, čuo je graju ispod prozora. Pomjerio se bliže zvukovima, nastojeći ne biti primijećen izvana. Nije bio u stanju razaznati o čemu govore, ali kad su usmjerili veliki industrijski reflektor put njegovog plafona, Zoki se munjevito bacio na pod i otpuzao natrag do ormara koji su bili prislonjeni na vrata. Osjetio je silu guranja s druge strane koja ga je prisilila da i sam gura natrag. "Jebemu miša, ako uđu - silovat će me!" Dodatno se opteretio zamišljanjem boksera i kolaca koji su mu bili namijenjeni ako ne pruži adekvatan otpor. Obliven svježim slojem hladnog znoja, urlikao je punu minutu bez prestanka, nadajući se da će neprijatelje prestrašiti njegova iskonska smionost.
 
 Međutim, to se nije dogodilo. Nakon kratkog predaha s obje strane, čuvar je zadihan prvi progovorio: <br/>
