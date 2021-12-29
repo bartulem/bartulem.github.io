@@ -1,13 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Varela Round);
 
 @font-face {
-    font-family: 'helveticaregular';
-    src: url('/fonts/helvetica-webfont.woff2') format('woff2'),
-         url('/fonts/helvetica-webfont.woff') format('woff');
+    font-family: 'Varela Round';
+    src: url('/fonts/VarelaRound-Regular.eot');
+    src: url('/fonts/VarelaRound-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/VarelaRound-Regular.woff2') format('woff2'),
+        url('/fonts/VarelaRound-Regular.woff') format('woff'),
+        url('/fonts/VarelaRound-Regular.svg#VarelaRound-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-
+    font-display: swap;
 }
 
 body { padding-top: 20px; padding-bottom: 40px; font-family: 'Varela Round'; font-size: 16px; }
