@@ -22,8 +22,6 @@ ul {
 
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
-blockquote p1 { font-size: 10px; line-height: 10px; }
-
 /* Masthead */
 .header, .footer, .header h3 { font-family: 'Nunito Sans'; font-weight: normal; }
 
@@ -43,6 +41,7 @@ img.custom { margin-bottom: 30px; }
 .jumbotron .btn { font-size: 21px; padding: 14px 24px; }
 .marketing p { font-size: 20px; line-height: 22px; }
 .marketing p.lead { font-size: 28px; line-height: 30px; }
+.marketing p1 { font-size: 12px; line-height: 12px; }
 
 .science, .inexile, .resources, .error { margin-bottom: 30px; }
 
