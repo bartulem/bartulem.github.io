@@ -1,20 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
 
 @font-face {
-    font-family: 'Varela Round';
-    src: url('/fonts/VarelaRound-Regular.eot');
-    src: url('/fonts/VarelaRound-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/VarelaRound-Regular.woff2') format('woff2'),
-        url('/fonts/VarelaRound-Regular.woff') format('woff'),
-        url('/fonts/VarelaRound-Regular.svg#VarelaRound-Regular') format('svg');
+    font-family: 'Nunito Sans';
+    src: url('/fonts/NunitoSans-Regular.eot');
+    src: url('/fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/NunitoSans-Regular.woff2') format('woff2'),
+        url('/fonts/NunitoSans-Regular.woff') format('woff'),
+        url('/fonts/NunitoSans-Regular.svg#NunitoSans-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-body { padding-top: 20px; padding-bottom: 40px; font-family: 'Varela Round'; font-size: 16px; }
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Nunito Sans'; font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Varela Round'; font-weight: 700;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Nunito Sans'; font-weight: 700;}
 
 ul {
   list-style-type: none;
@@ -23,11 +23,11 @@ ul {
 blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Masthead */
-.header, .footer, .header h3 { font-family: 'Varela Round'; font-weight: normal; }
+.header, .footer, .header h3 { font-family: 'Nunito Sans'; font-weight: normal; }
 
 /* Navigation */
-h3.text-muted a { font-family: 'Varela Round'; text-decoration: none; color: #140202; }
-h3.text-muted a:hover { font-family: 'Varela Round'; text-decoration: none; color: #007bff; }
+h3.text-muted a { font-family: 'Nunito Sans'; text-decoration: none; color: #140202; }
+h3.text-muted a:hover { font-family: 'Nunito Sans'; text-decoration: none; color: #007bff; }
 
 img.custom { margin-bottom: 30px; }
 		
@@ -47,7 +47,7 @@ img.custom { margin-bottom: 30px; }
 .nav-pills li { margin-left: 15px; }
 
 /* science */
-iframe {font-family: 'Varela Round'; font-size: 16px; margin-left: auto; margin-right: auto}
+iframe {font-family: 'Nunito Sans'; font-size: 16px; margin-left: auto; margin-right: auto}
 
 /* inexile */
 .about ul.list-unstyled li { line-height: 30px; text-indent: -30px; margin-left: 30px;}
@@ -67,5 +67,5 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 	font-size: 24px;
 	padding-top: 5.5px;
 	margin: 5px 15px 0px 0px;
-	font-family: 'Varela Round'; }
+	font-family: 'Nunito Sans'; }
 
