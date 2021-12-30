@@ -42,7 +42,7 @@ img.custom { margin-bottom: 30px; }
 .marketing p { font-size: 20px; line-height: 22px; }
 .marketing p.lead { font-size: 28px; line-height: 30px; }
 
-h1, h2, p {
+.posts-list h1, h2, p {
     margin: 0;
 }
 
@@ -50,12 +50,6 @@ h1, h2, p {
 
 /* science */
 iframe {font-family: 'Nunito Sans'; font-size: 16px; margin-left: auto; margin-right: auto}
-
-/* inexile */
-.about ul.list-unstyled li { line-height: 30px; text-indent: -30px; margin-left: 30px;}
-
-/* resources */
-pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
 .step { border-radius: 50%; 
 	-moz-border-radius: 50%; 
