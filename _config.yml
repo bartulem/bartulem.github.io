@@ -1,6 +1,6 @@
 name: chronicles
 description: bartulem's blog
-url: https://bartulem.github.io/chronicles/
+url: https://bartulem.github.io
 
 feed_items: 5
 feed_update_period: weekly
