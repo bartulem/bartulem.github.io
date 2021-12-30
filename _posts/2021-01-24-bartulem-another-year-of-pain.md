@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /headache & weather data (2020)
-category: thoughts
+category: chronicles
 tags: pain headache weather data 2020
 title: "another year of pain"
 author: bartulem

@@ -1,7 +1,7 @@
 ---
 layout: post
 description: boysi na savi 3/3
-category: thoughts
+category: chronicles
 tags: boysi sava zoran zoki zagreb dalmatinac
 title: "Boysi na Savi III"
 subtitle: "Noćna mora svakog Dalmatinca u Zagrebu"

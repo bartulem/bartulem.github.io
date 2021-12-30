@@ -1,6 +1,6 @@
-name: thoughts
+name: chronicles
 description: bartulem's blog
-url: https://bartulem.github.io/thoughts/
+url: https://bartulem.github.io/chronicles/
 
 feed_items: 5
 feed_update_period: weekly
@@ -11,7 +11,7 @@ google_analytics: UA-157587935-1
 permalink: pretty
 
 paginate: 10
-paginate_path: "/thoughts/page:num/"
+paginate_path: "/chronicles/page:num/"
 
 
 

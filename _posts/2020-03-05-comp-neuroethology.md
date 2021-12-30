@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /on behavior, the (neuro)science of behavior and why one would care
-category: thoughts
+category: chronicles
 tags: science neuroethology
 title: "computational neuroethology"
 author: bartulem

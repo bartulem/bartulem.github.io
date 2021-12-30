@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /change change change
-category: thoughts
+category: chronicles
 tags: moving transition life
 title: "life transition 2021"
 author: bartulem

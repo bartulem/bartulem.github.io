@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /motion tuning in visual areas
-category: thoughts
+category: chronicles
 tags: JC science sensory V1 movement motor
 title: "JC: movement in sensory cortices"
 author: bartulem

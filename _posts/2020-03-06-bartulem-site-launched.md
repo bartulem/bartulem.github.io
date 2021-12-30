@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /the who, what, why and else of this platform
-category: thoughts
+category: chronicles
 tags: intro launch personal
 title: "the site is launched"
 author: bartulem

@@ -1,7 +1,7 @@
 ---
 layout: post
 description: /the ranking of all Dylan rankings
-category: thoughts
+category: chronicles
 tags: dylan songs music
 title: "my top 10 Bob Dylan songs"
 author: bartulem
