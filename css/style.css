@@ -42,7 +42,9 @@ img.custom { margin-bottom: 30px; }
 .marketing p { font-size: 20px; line-height: 22px; }
 .marketing p.lead { font-size: 28px; line-height: 30px; }
 
-.science, .inexile, .resources, .error { margin-bottom: 30px; }
+h1, h2, p {
+    margin: 0;
+}
 
 .nav-pills li { margin-left: 15px; }
 
