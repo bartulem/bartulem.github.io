@@ -12,8 +12,3 @@ permalink: pretty
 
 paginate: 10
 paginate_path: "/chronicles/page:num/"
-
-
-
-
-
