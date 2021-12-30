@@ -35,10 +35,10 @@
       Posted on {{ post.date | date: date_format }}
     </p>
 
-    {% if thumbnail != "" %}
+    {% if cover != "" %}
     <div class="post-image post-image-small">
-      <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
+      <a href="{{ post.url | absolute_url }}" aria-label="Cover">
+        <img src="{{ cover | absolute_url }}" alt="Post cover">
       </a>
     </div>
     {% endif %}
