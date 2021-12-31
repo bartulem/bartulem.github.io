@@ -21,7 +21,7 @@
     <div class="post-image post-image-normal">
       <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
         <p class="text-center">
-          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail" height="400" width="700">
+          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail" height="{{ post.thumbnail-height }}" width="{{ post.thumbnail-width }}">
         </p>
       </a>
     </div>
@@ -42,7 +42,7 @@
     <div class="post-image post-image-short">
       <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
         <p class="text-center">
-          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail" height="400" width="700">
+          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail" height="{{ post.thumbnail-height }}" width="{{ post.thumbnail-width }}">
         </p>
       </a>
     </div>

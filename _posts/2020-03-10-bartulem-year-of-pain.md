@@ -4,6 +4,8 @@ description: /headache & weather data (2019)
 category: chronicles
 tags: pain headache weather data
 thumbnail-img: https://bartulem.github.io/img/pain2019.png
+thumbnail-height: 700
+post.thumbnail-width: 900
 title: "a year of pain"
 author: bartulem
 date: 2020-03-10

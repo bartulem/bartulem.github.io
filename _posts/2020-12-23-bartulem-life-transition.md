@@ -4,6 +4,8 @@ description: /change change change
 category: chronicles
 tags: moving transition life
 thumbnail-img: https://bartulem.github.io/img/world-map-continents-transition.png
+thumbnail-height: 400
+post.thumbnail-width: 700
 title: "life transition 2021"
 author: bartulem
 date: 2020-12-23

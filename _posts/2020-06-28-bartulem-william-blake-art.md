@@ -4,6 +4,8 @@ description: /the biblical romantic
 category: chronicles
 tags: blake art
 thumbnail-img: https://bartulem.github.io/img/blake3.png
+thumbnail-height: 400
+post.thumbnail-width: 700
 title: "The artwork of William Blake"
 author: bartulem
 date: 2020-06-28

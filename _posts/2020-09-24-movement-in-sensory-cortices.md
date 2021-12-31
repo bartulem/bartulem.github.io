@@ -4,6 +4,8 @@ description: /motion tuning in visual areas
 category: chronicles
 tags: JC science sensory V1 movement motor
 thumbnail-img: https://bartulem.github.io/img/mvment-sensory-cortices.png
+thumbnail-height: 500
+post.thumbnail-width: 700
 title: "JC: movement in sensory cortices"
 author: bartulem
 date: 2020-09-24
