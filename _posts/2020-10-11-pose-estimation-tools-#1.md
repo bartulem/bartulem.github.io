@@ -3,6 +3,7 @@ layout: post
 description: /recent developments in pose estimation
 category: chronicles
 tags: JC science pose estimation DeepLabStream FreiPose Deep Graph Pose
+thumbnail: https://bartulem.github.io/img/pose-estimation-1.png
 title: "JC: pose estimation tools #1"
 author: bartulem
 date: 2020-10-11
