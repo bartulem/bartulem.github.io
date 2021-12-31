@@ -3,6 +3,7 @@ layout: post
 description: /on behavior, the (neuro)science of behavior and why one would care
 category: chronicles
 tags: science neuroethology
+thumbnail-img: https://bartulem.github.io/img/eagle4k.gif
 title: "computational neuroethology"
 author: bartulem
 date: 2020-03-05

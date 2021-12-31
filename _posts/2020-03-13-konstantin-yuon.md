@@ -3,6 +3,7 @@ layout: post
 description: /the obscure Russian genious
 category: chronicles
 tags: yuon art
+thumbnail-img: https://bartulem.github.io/img/yuon2.png
 title: "Konstantin Yuon"
 author: bartulem
 date: 2020-03-13
