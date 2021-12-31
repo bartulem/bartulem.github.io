@@ -3,7 +3,6 @@ layout: post
 description: /the who, what, why and else of this platform
 category: chronicles
 tags: intro launch personal
-thumbnail-img: https://bartulem.github.io/img/ledieu.png
 title: "the site is launched"
 author: bartulem
 date: 2020-03-05
