@@ -55,5 +55,5 @@ Ipak nije dočekao prirodni kraj razgovora, strahujući da se bouncer već penje
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Dečko, buš otvoril da porazgovaramo?
 
 <center>to be continued...</center>
-<center>part <a href="https://bartulem.github.io/thoughts/2021/05/09/bartulem-boysi-na-savi/">1</a> 2  <a href="https://bartulem.github.io/thoughts/2021/05/22/bartulem-boysi-na-savi-3/">3</a></center>
+<center>part <a href="https://bartulem.github.io/chronicles/2021/05/09/bartulem-boysi-na-savi/">1</a> 2  <a href="https://bartulem.github.io/chronicles/2021/05/22/bartulem-boysi-na-savi-3/">3</a></center>
 
