@@ -47,7 +47,7 @@ img.custom { margin-bottom: 30px; }
 .jumbotron .btn { font-size: 21px; padding: 14px 24px; }
 .marketing p { font-size: 20px; line-height: 22px; }
 .marketing p.lead { font-size: 28px; line-height: 30px; }
-.marketing p.publications { font-size: 18px; line-height: 20px; margin:5px; padding:10px; }
+.marketing p.publications { font-size: 18px; line-height: 20px; margin:0px; padding-bottom:10px; }
 
 .posts-list h1 { margin: 0; }
 .posts-list h2 { margin: 0; }
