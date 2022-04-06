@@ -48,7 +48,7 @@ img.custom { margin-bottom: 30px; }
 .marketing p { font-size: 20px; line-height: 22px; }
 .marketing p.lead { font-size: 28px; line-height: 30px; }
 .marketing p.publications { font-size: 16px; line-height: 18px; }
-.enumerating p.publications { font-size: 16px; line-height: 18px; border-collapse: collapse; border-spacing: 0;}
+.enumerating p.publications { font-size: 16px; line-height: 24px; border-collapse: collapse; border-spacing: 0; }
 
 .posts-list h1 { margin: 0; }
 .posts-list h2 { margin: 0; }
