@@ -1,20 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,400,400italic,700,700italic);
 
 @font-face {
-    font-family: 'Nunito Sans';
-    src: url('/fonts/NunitoSans-Regular.eot');
-    src: url('/fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/NunitoSans-Regular.woff2') format('woff2'),
-        url('/fonts/NunitoSans-Regular.woff') format('woff'),
-        url('/fonts/NunitoSans-Regular.svg#NunitoSans-Regular') format('svg');
+    font-family: 'Manjari-Thin';
+    src: url('/fonts/Manjari-Thin.eot');
+    src: url('/fonts/Manjari-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Manjari-Thin.woff2') format('woff2'),
+        url('/fonts/Manjari-Thin.woff') format('woff'),
+        url('/fonts/Manjari-Thin.svg#Manjari-Thin') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
-body { padding-top: 20px; padding-bottom: 40px; font-family: 'Nunito Sans'; font-size: 16px; }
+body { padding-top: 20px; padding-bottom: 40px; font-family: 'Manjari-Thin'; font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Nunito Sans'; font-weight: 700; line-height: 1.0; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Manjari-Thin'; font-weight: 700; line-height: 1.0; }
 
 ul {
   list-style-type: none;
@@ -29,11 +29,11 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 }
 
 /* Masthead */
-.header, .footer, .header h3 { font-family: 'Nunito Sans'; font-weight: normal; }
+.header, .footer, .header h3 { font-family: 'Manjari-Thin'; font-weight: normal; }
 
 /* Navigation */
-h3.text-muted a { font-family: 'Nunito Sans'; text-decoration: none; color: #140202; }
-h3.text-muted a:hover { font-family: 'Nunito Sans'; text-decoration: none; color: #007bff; }
+h3.text-muted a { font-family: 'Manjari-Thin'; text-decoration: none; color: #140202; }
+h3.text-muted a:hover { font-family: 'Manjari-Thin'; text-decoration: none; color: #007bff; }
 
 img.custom { margin-bottom: 30px; }
 		
@@ -56,7 +56,7 @@ img.custom { margin-bottom: 30px; }
 .nav-pills li { margin-left: 15px; }
 
 /* science */
-iframe {font-family: 'Nunito Sans'; font-size: 16px; margin-left: auto; margin-right: auto}
+iframe {font-family: 'Manjari-Thin'; font-size: 16px; margin-left: auto; margin-right: auto}
 
 .step { border-radius: 50%; 
 	-moz-border-radius: 50%; 
@@ -70,5 +70,5 @@ iframe {font-family: 'Nunito Sans'; font-size: 16px; margin-left: auto; margin-r
 	font-size: 24px;
 	padding-top: 5.5px;
 	margin: 5px 15px 0px 0px;
-	font-family: 'Nunito Sans'; }
+	font-family: 'Manjari-Thin'; }
 
