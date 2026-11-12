@@ -67,11 +67,11 @@
    * type 'gap'    : the light fades out at Princeton and back in at Split
    */
   const TIMELINE = [
-    { type: 'dwell', city: 0, duration: 4.0 },
+    { type: 'dwell', city: 0, duration: 5.0 },
     { type: 'travel', arc: 0, duration: 2.5 },
-    { type: 'dwell', city: 1, duration: 4.0 },
+    { type: 'dwell', city: 1, duration: 5.0 },
     { type: 'travel', arc: 1, duration: 3.5 },
-    { type: 'dwell', city: 2, duration: 5.0 },
+    { type: 'dwell', city: 2, duration: 6.0 },
     { type: 'gap', duration: 1.6 }
   ];
 
@@ -547,19 +547,29 @@
         const phase = (state.clock % 2) / 2;
         ctx.beginPath();
         ctx.arc(x, y, 5 + 13 * phase, 0, 2 * Math.PI);
-        ctx.strokeStyle = rgba(city.color, 0.6 * (1 - phase));
-        ctx.lineWidth = 1;
+        ctx.strokeStyle = rgba(city.color, 0.9 * (1 - phase));
+        ctx.lineWidth = 1.4;
         ctx.stroke();
       }
-      const halo = ctx.createRadialGradient(x, y, 0, x, y, 12);
-      halo.addColorStop(0, rgba(city.color, isActive ? 0.55 : 0.3));
+      // The marker: a soft halo and a solid dot. An active city gets a wider,
+      // stronger halo, a larger dot and a bright centre.
+      const haloRadius = isActive ? 22 : 12;
+      const halo = ctx.createRadialGradient(x, y, 0, x, y, haloRadius);
+      halo.addColorStop(0, rgba(city.color, isActive ? 0.95 : 0.3));
+      halo.addColorStop(0.45, rgba(city.color, isActive ? 0.4 : 0.1));
       halo.addColorStop(1, rgba(city.color, 0));
       ctx.fillStyle = halo;
-      ctx.fillRect(x - 12, y - 12, 24, 24);
+      ctx.fillRect(x - haloRadius, y - haloRadius, 2 * haloRadius, 2 * haloRadius);
       ctx.beginPath();
-      ctx.arc(x, y, isActive ? 3.4 : 2.6, 0, 2 * Math.PI);
+      ctx.arc(x, y, isActive ? 4.4 : 2.6, 0, 2 * Math.PI);
       ctx.fillStyle = rgba(city.color, 1);
       ctx.fill();
+      if (isActive) {
+        ctx.beginPath();
+        ctx.arc(x, y, 1.8, 0, 2 * Math.PI);
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.92)';
+        ctx.fill();
+      }
 
       // The button's bottom padding covers the marker, so marker and label are one target.
       const size = view.buttonSizes[c];
@@ -748,11 +758,11 @@
 
     const lightPosition = projectLonLat(light.lon, light.lat);
     const spots = [
-      { x: lightPosition.x, y: lightPosition.y, radius: view.radius * 0.6, alpha: 0.75 * light.alpha }
+      { x: lightPosition.x, y: lightPosition.y, radius: view.radius * 0.6, alpha: 1.0 * light.alpha }
     ];
     if (active >= 0 && active !== light.city) {
       const p = projectLonLat(CITIES[active].lon * DEG, CITIES[active].lat * DEG);
-      spots.push({ x: p.x, y: p.y, radius: view.radius * 0.6, alpha: 0.75 });
+      spots.push({ x: p.x, y: p.y, radius: view.radius * 0.6, alpha: 1.0 });
     }
     if (pointer.inside) {
       spots.push({ x: pointer.x, y: pointer.y, radius: 230, alpha: 0.85 });
