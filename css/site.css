@@ -1,0 +1,464 @@
+/* =========================================================================
+   bartulem.github.io -- single-page site
+   Part 1: full-screen landing (globe canvas + identity block)
+   Part 2: prose sections (about, publications) and footer
+   All sizes in rem with a fluid root, so the page scales with the viewport.
+   ========================================================================= */
+
+:root {
+  --bg: #07080d;
+  --text: #d6d2c9;
+  --text-strong: #ece8df;
+  --text-dim: rgba(214, 210, 201, 0.55);
+  --text-faint: rgba(214, 210, 201, 0.32);
+  --rule: rgba(214, 210, 201, 0.12);
+  --split: #5fb0dc;      /* Adriatic blue */
+  --trondheim: #7fd8ae;  /* aurora green */
+  --princeton: #f08a32;  /* Princeton orange */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html {
+  font-size: clamp(1rem, 0.88rem + 0.4vw, 1.22rem);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+::selection { background: rgba(95, 176, 220, 0.35); color: var(--text-strong); }
+
+a { color: inherit; }
+
+/* --- Landing ------------------------------------------------------------- */
+
+.hero {
+  position: relative;
+  height: 100vh;
+  height: 100svh;
+  min-height: 34rem;
+  overflow: hidden;
+}
+
+.hero canvas {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  display: block;
+}
+
+/* Name, field line, affiliation and links, centred over the globe */
+.identity {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: max-content;
+  max-width: 92vw;
+}
+
+/* Dark ellipse behind the identity so coastlines never cut through the name */
+.identity::before {
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 135%; height: 170%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(ellipse, rgba(7, 8, 13, 0.92) 0%, rgba(7, 8, 13, 0.7) 42%, transparent 70%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Brain emblem above the name */
+.id-brain {
+  position: relative;
+  width: 6.6rem;
+  margin-bottom: 0.8rem;
+}
+
+/* The emblem's layers: hemisphere bodies, then three brightness bands, all in
+   the neutral text tone so that the emblem stays quiet next to the name */
+.id-brain svg { display: block; width: 100%; height: auto; }
+.id-brain .brain-body { color: rgba(214, 210, 201, 0.07); }
+.id-brain .brain-band-1 { color: rgba(214, 210, 201, 0.30); }
+.id-brain .brain-band-2 { color: rgba(214, 210, 201, 0.55); }
+.id-brain .brain-band-3 { color: rgba(214, 210, 201, 0.85); }
+
+/* A few blue points that glow gently, out of step with one another */
+.id-brain .brain-dot { color: var(--split); animation: brain-glow 3.2s ease-in-out infinite; }
+.id-brain .brain-dot-2 { animation-delay: -0.8s; }
+.id-brain .brain-dot-3 { animation-delay: -1.7s; }
+.id-brain .brain-dot-4 { animation-delay: -2.3s; }
+.id-brain .brain-dot-5 { animation-delay: -1.2s; }
+
+/* Signals: a short blue dash travelling along circuit traces of the left
+   hemisphere. Each path has pathLength 100, so the dash is 10% of its trace;
+   it starts just before the trace and ends just beyond it. */
+.id-brain .brain-signal {
+  color: var(--split);
+  stroke-width: 7;
+  stroke-dasharray: 10 100;
+  stroke-dashoffset: 10;
+  animation: brain-signal 5s linear infinite;
+}
+
+.id-brain .brain-signal-2 { animation-duration: 6.4s; animation-delay: -2.1s; }
+.id-brain .brain-signal-3 { animation-duration: 4.4s; animation-delay: -3.0s; }
+.id-brain .brain-signal-4 { animation-duration: 7.0s; animation-delay: -1.2s; }
+.id-brain .brain-signal-5 { animation-duration: 5.6s; animation-delay: -4.1s; }
+.id-brain .brain-signal-6 { animation-duration: 6.0s; animation-delay: -0.5s; }
+
+/* Action potentials: soft blue rings that grow from a point of the right
+   hemisphere and fade as they spread, colouring the swirls they pass over.
+   Each ring is scaled about its own centre. */
+/* The ring's gradient takes its colour from the gradient element, not from the circle that uses it */
+.id-brain #brain-wave-ring { color: var(--split); }
+
+.id-brain .brain-wave {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(0);
+  opacity: 0;
+  animation: brain-wave 4.2s ease-out infinite;
+}
+
+.id-brain .brain-wave-2 { animation-duration: 5.4s; animation-delay: -1.9s; }
+.id-brain .brain-wave-3 { animation-duration: 6.3s; animation-delay: -4.0s; }
+
+@keyframes brain-glow {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}
+
+@keyframes brain-signal {
+  from { stroke-dashoffset: 10; }
+  to { stroke-dashoffset: -100; }
+}
+
+@keyframes brain-wave {
+  0% { transform: scale(0); opacity: 0; }
+  6% { opacity: 0.95; }
+  45% { transform: scale(1); opacity: 0; }
+  100% { transform: scale(1); opacity: 0; }
+}
+
+/* The pool of words is kept in the page for the script and for screen
+   readers, but not shown; the script rotates the words through the field line. */
+.keywords {
+  position: absolute;
+  width: 1px; height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  list-style: none;
+}
+
+.id-name {
+  font: 400 2.8rem var(--serif);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--text-strong);
+  margin-bottom: 0.65rem;
+  white-space: nowrap;
+}
+
+.id-fields {
+  font: 500 0.7rem var(--sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--split);
+  margin-bottom: 0.55rem;
+}
+
+/* The three words of the field line change over time (see js/landing.js).
+   Each sits in a slot whose width eases to the new word's width, so the line
+   re-centres smoothly; the word fades to the background colour, is replaced,
+   and the new word's colour comes up. */
+.id-fields { position: relative; white-space: nowrap; }
+
+.field {
+  display: inline-flex;
+  justify-content: center;
+  vertical-align: bottom;
+  transition: width 0.3s ease;
+}
+
+.field-word {
+  flex: none;
+  display: inline-block;
+  white-space: nowrap;
+  transition: color 0.9s ease;
+}
+
+/* Faded: almost the background colour */
+.field-word.dim { color: rgba(214, 210, 201, 0.1); }
+
+/* Invisible copy of the type style, used by the script to measure words */
+.field-ruler {
+  position: absolute;
+  left: 0; top: 0;
+  visibility: hidden;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.id-affiliation {
+  font: 400 0.65rem var(--sans);
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+  margin-bottom: 1.1rem;
+}
+
+/* Row of profile icons (inline SVGs that take the link colour) */
+.id-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.15rem;
+}
+
+.id-links a {
+  display: block;
+  line-height: 0;
+  color: var(--text-dim);
+  transition: color 0.3s ease, filter 0.3s ease;
+}
+
+.id-links svg { width: 1.05rem; height: 1.05rem; }
+
+.id-links a:hover,
+.id-links a:focus-visible {
+  color: var(--text-strong);
+  filter: drop-shadow(0 0 0.5rem rgba(236, 232, 223, 0.45));
+}
+
+/* City labels: real buttons, positioned over the canvas by the script */
+.city {
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 4;
+  padding: 0.5rem 0.7rem 1.5rem;
+  background: none;
+  border: 0;
+  cursor: default;
+  font: 500 0.58rem var(--sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  white-space: nowrap;
+  transition: color 0.3s ease;
+  will-change: transform;
+}
+
+.city:focus-visible { outline: 1px solid var(--text-faint); outline-offset: -0.3rem; }
+.city[data-city="split"]:hover, .city[data-city="split"].active { color: var(--split); }
+.city[data-city="trondheim"]:hover, .city[data-city="trondheim"].active { color: var(--trondheim); }
+.city[data-city="princeton"]:hover, .city[data-city="princeton"].active { color: var(--princeton); }
+
+/* Video of the two mice. Its background is black; "screen" blending makes
+   black transparent, so the globe stays visible behind the animals. */
+.scene-video {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+/* Caption under the video; positioned by the script */
+.scene-caption {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  width: min(30rem, 90vw);
+  text-align: center;
+  font: italic 400 0.72rem/1.4 var(--serif);
+  color: var(--text-dim);
+}
+
+.scroll-cue {
+  position: absolute;
+  bottom: 1rem; left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  font: 400 0.9rem var(--sans);
+  color: var(--text-faint);
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.scroll-cue:hover { color: var(--text-strong); }
+
+/* --- Prose sections ------------------------------------------------------ */
+
+.prose {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 1rem;
+}
+
+.prose:last-child { padding-bottom: 5rem; }
+
+/* A section that follows another sits closer to it than the first one sits to the landing screen */
+.prose + .prose { padding-top: 2.2rem; }
+
+.prose h2 {
+  font: 500 0.7rem var(--sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--split);
+  margin-bottom: 1.6rem;
+}
+
+.prose p { margin-bottom: 1.1rem; color: rgba(214, 210, 201, 0.88); }
+.prose p.lead { font-size: 1.2rem; line-height: 1.5; color: var(--text-strong); }
+
+.prose a {
+  color: var(--text-strong);
+  text-decoration: underline;
+  text-decoration-color: var(--text-faint);
+  text-underline-offset: 0.18em;
+  transition: text-decoration-color 0.3s ease;
+}
+
+.prose a:hover { text-decoration-color: var(--text-strong); }
+
+/* Line portrait beside the first paragraph */
+.portrait {
+  float: right;
+  width: 12.5rem;
+  margin: 0.2rem 0 0.8rem 2rem;
+}
+
+.portrait svg { display: block; width: 100%; height: auto; overflow: visible; }
+.portrait path { vector-effect: non-scaling-stroke; }
+
+/* The hair flutters all the time: each lock leans one way and back about its
+   root roughly every half second. The locks have slightly different rhythms,
+   so that they do not move in step. */
+.portrait .portrait-hair {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: hair-flutter 0.5s ease-in-out infinite alternate;
+}
+
+.portrait .portrait-hair-2 { animation-duration: 0.56s; animation-delay: -0.2s; }
+.portrait .portrait-hair-3 { animation-duration: 0.47s; animation-delay: -0.35s; }
+.portrait .portrait-hair-4 { animation-duration: 0.6s; animation-delay: -0.1s; }
+
+@keyframes hair-flutter {
+  from { transform: skewX(-3.5deg) translateX(-0.6%); }
+  to { transform: skewX(2.5deg) translateX(0.4%); }
+}
+
+/* Publications */
+.pub {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 1.3rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.pub-body { flex: 1 1 auto; min-width: 0; }
+.prose .pub-title { color: var(--text-strong); font-size: 1.05rem; line-height: 1.4; margin-bottom: 0.4rem; }
+.prose .pub-authors { font-size: 0.85rem; color: var(--text-dim); margin-bottom: 0.3rem; }
+.pub-authors b { color: var(--text-strong); font-weight: 600; }
+.prose .pub-venue { font-size: 0.85rem; color: var(--text-dim); margin-bottom: 0.6rem; }
+.prose .pub-links { margin-bottom: 0; }
+
+.pub-links { display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; }
+
+.pub-links a {
+  font: 500 0.62rem var(--sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  text-decoration: none;
+}
+
+.pub-links a:hover { color: var(--text-strong); }
+
+.pub-badges {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 4rem;
+}
+
+/* Both badge embeds bring their own inline spacing; flatten it so the two circles share a centre line. */
+.pub-badges > * { display: flex; align-items: center; line-height: 0; margin: 0; }
+.pub-badges .__dimensions_Badge { margin: 0 !important; }
+.pub-badges .altmetric-embed a, .pub-badges .altmetric-embed img { display: block; margin: 0; }
+
+/* Dark versions of the citation badges. Neither service offers a dark theme,
+   so the badges are inverted (white becomes black, dark digits become light)
+   and their hues rotated back, which keeps the ring colours recognisable. */
+.pub-badges .__dimensions_badge_embed__,
+.pub-badges .altmetric-embed img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.prose .pub-note {
+  border-top: 1px solid var(--rule);
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+/* --- Simple message page (404, redirects) -------------------------------- */
+
+.message {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.message h1 { font: 400 2.2rem var(--serif); color: var(--text-strong); margin-bottom: 1rem; }
+.message p { color: var(--text-dim); }
+.message a { color: var(--text-strong); }
+
+/* --- Small screens ------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  html { font-size: clamp(0.9rem, 0.8rem + 0.5vw, 1.1rem); }
+  .id-name { font-size: 2.1rem; }
+  .id-fields { font-size: 0.6rem; letter-spacing: 0.1em; }
+  .id-affiliation { font-size: 0.6rem; }
+  .portrait { width: 8.5rem; margin: 0 0 0.5rem 1rem; }
+  .id-brain { width: 5rem; margin-bottom: 0.6rem; }
+  .prose { padding-top: 3.5rem; }
+  .pub { flex-direction: column; gap: 0.6rem; }
+  .pub-badges { min-height: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+  /* The emblem stays still: blue points shown, no travelling signals */
+  .id-brain .brain-dot, .id-brain .brain-signal, .id-brain .brain-wave { animation: none; }
+  .portrait .portrait-hair { animation: none; }
+}
