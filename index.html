@@ -26,6 +26,14 @@ layout: null
 	     fetch the new stylesheet and scripts instead of pairing a new page with old cached files. -->
 	<link href="/css/site.css?v={{ site.time | date: '%s' }}" rel="stylesheet">
 	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+	<!-- The Dimensions badge first asks its server for these three addresses and shows "?" in
+	     place of every citation count if that request fails (seen in Safari on the iPhone).
+	     Giving the addresses here makes the badge independent of that request. -->
+	<script>
+		window.__dimensions_badge_url = 'https://badge.dimensions.ai';
+		window.__dimensions_detail_url = 'https://badge.dimensions.ai';
+		window.__dimensions_metrics_api = 'https://metrics-api.dimensions.ai';
+	</script>
 	<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 	{% include analytics.html %}

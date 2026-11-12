@@ -13,9 +13,9 @@
   --text-faint: rgba(214, 210, 201, 0.32);
   --rule: rgba(214, 210, 201, 0.12);
   --accent: #5fb0dc;          /* the site's blue: headings, field line, brain signals */
+  --female: #ff9168;          /* the female mouse's colour in the video: right half of the brain emblem */
   --split: #d9d9d9;           /* Split: light grey */
   --trondheim: #00509e;       /* Trondheim: NTNU blue */
-  --trondheim-text: #5a9bdc;  /* a lighter tint of NTNU blue, legible as text on the dark page */
   --princeton: #e77500;       /* Princeton: Princeton orange */
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
@@ -107,6 +107,10 @@ a { color: inherit; }
 .id-brain .brain-dot-4 { animation-delay: -2.3s; }
 .id-brain .brain-dot-5 { animation-delay: -1.2s; }
 
+/* The points in the right hemisphere take the colour of the female mouse in
+   the video (dot 2 is the one point in the left hemisphere and stays blue) */
+.id-brain .brain-dot-1, .id-brain .brain-dot-3, .id-brain .brain-dot-4, .id-brain .brain-dot-5 { color: var(--female); }
+
 /* Signals: a short blue dash travelling along circuit traces of the left
    hemisphere. Each path has pathLength 100, so the dash is 10% of its trace;
    it starts just before the trace and ends just beyond it. */
@@ -128,7 +132,7 @@ a { color: inherit; }
    hemisphere and fade as they spread, colouring the swirls they pass over.
    Each ring is scaled about its own centre. */
 /* The ring's gradient takes its colour from the gradient element, not from the circle that uses it */
-.id-brain #brain-wave-ring { color: var(--accent); }
+.id-brain #brain-wave-ring { color: var(--female); }
 
 .id-brain .brain-wave {
   transform-box: fill-box;
@@ -258,32 +262,33 @@ a { color: inherit; }
   background: none;
   border: 0;
   cursor: default;
-  font: 500 0.58rem var(--sans);
+  font: 500 0.58rem/1.1 var(--sans);
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-dim);
   white-space: nowrap;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
   will-change: transform;
 }
 
 /* The line under a city's name */
 .city-note {
   display: block;
-  margin-top: 0.25rem;
-  font: 400 0.6rem/1.3 var(--sans);
+  margin-top: 0.08rem;   /* almost touching the city's name */
+  font: 400 0.6rem/1.15 var(--sans);
   letter-spacing: 0.03em;
   text-transform: none;
   color: rgba(214, 210, 201, 0.45);
   transition: color 0.3s ease;
 }
 
-.city:hover .city-note, .city.active .city-note { color: rgba(214, 210, 201, 0.8); }
+.city:hover .city-note, .city.active .city-note { color: rgba(240, 236, 228, 0.98); text-shadow: none; }
 
 .city:focus-visible { outline: 1px solid var(--text-faint); outline-offset: -0.3rem; }
-.city[data-city="split"]:hover, .city[data-city="split"].active { color: var(--split); }
-.city[data-city="trondheim"]:hover, .city[data-city="trondheim"].active { color: var(--trondheim-text); }
-.city[data-city="princeton"]:hover, .city[data-city="princeton"].active { color: var(--princeton); }
+/* An active city's name is bright and glows in the city's colour */
+.city[data-city="split"]:hover, .city[data-city="split"].active { color: #ffffff; text-shadow: 0 0 0.7rem rgba(255, 255, 255, 0.7); }
+.city[data-city="trondheim"]:hover, .city[data-city="trondheim"].active { color: #8cc4ff; text-shadow: 0 0 0.7rem rgba(60, 140, 235, 0.95); }
+.city[data-city="princeton"]:hover, .city[data-city="princeton"].active { color: #ff9a3d; text-shadow: 0 0 0.7rem rgba(231, 117, 0, 0.9); }
 
 /* Video of the two mice. Its background is black; "screen" blending makes
    black transparent, so the globe stays visible behind the animals. */
