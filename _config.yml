@@ -10,5 +10,18 @@ markdown: kramdown
 google_analytics: UA-157587935-1
 permalink: pretty
 
-paginate: 5
-paginate_path: "/chronicles/page:num/"
+# The chronicles (blog) section is retired from the published site but kept in
+# the repository. To bring it back, remove chronicles, _posts and search.json
+# from the exclude list below and uncomment the two paginate lines.
+# paginate: 5
+# paginate_path: "/chronicles/page:num/"
+
+exclude:
+  - chronicles
+  - _posts
+  - search.json
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
