@@ -42,19 +42,19 @@
       key: 'split',
       lon: 16.44,
       lat: 43.51,
-      color: [95, 176, 220]
+      color: [217, 217, 217]
     },
     {
       key: 'trondheim',
       lon: 10.40,
       lat: 63.43,
-      color: [127, 216, 174]
+      color: [0, 80, 158]
     },
     {
       key: 'princeton',
       lon: -74.66,
       lat: 40.35,
-      color: [240, 138, 50]
+      color: [231, 117, 0]
     }
   ];
 
@@ -564,7 +564,9 @@
       // The button's bottom padding covers the marker, so marker and label are one target.
       const size = view.buttonSizes[c];
       const button = cityButtons[c];
-      button.style.transform = 'translate(' + (x - size[0] / 2).toFixed(1) + 'px, ' + (y - size[1] + 12).toFixed(1) + 'px)';
+      // Centred over the marker, but kept inside the page so that a long note is not cut off.
+      const buttonX = clamp(x - size[0] / 2, 4, Math.max(4, view.width - size[0] - 4));
+      button.style.transform = 'translate(' + buttonX.toFixed(1) + 'px, ' + (y - size[1] + 12).toFixed(1) + 'px)';
       button.classList.toggle('active', isActive);
     }
 
