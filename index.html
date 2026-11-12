@@ -22,7 +22,9 @@ layout: null
 	<link rel="manifest" href="/img/favicon_package_v0.16/site.webmanifest">
 	<meta name="theme-color" content="#07080d">
 
-	<link href="/css/site.css" rel="stylesheet">
+	<!-- The ?v= stamp is the time of the site build. It changes with every update, so browsers
+	     fetch the new stylesheet and scripts instead of pairing a new page with old cached files. -->
+	<link href="/css/site.css?v={{ site.time | date: '%s' }}" rel="stylesheet">
 	<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 	<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
@@ -153,7 +155,7 @@ layout: null
 		</section>
 	</main>
 
-	<script src="/js/land.js"></script>
-	<script src="/js/landing.js"></script>
+	<script src="/js/land.js?v={{ site.time | date: '%s' }}"></script>
+	<script src="/js/landing.js?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
