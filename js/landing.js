@@ -13,8 +13,9 @@
  * The globe is dim by default and brightens under a "spotlight" that follows
  * both the travelling light and the visitor's cursor.
  *
- * The three field words under the name take turns changing: a word fades to
- * the background colour and another word from a pool of keywords takes its place.
+ * The three field words under the name take turns changing: a word spins about
+ * its horizontal axis like a turbine, too fast to read, and slows down as
+ * another word from a pool of keywords, in one of two colours.
  *
  * Requires the global LAND_RINGS array defined in js/land.js. Has no other
  * dependencies.
@@ -630,23 +631,36 @@
   /** Delay between the changes of neighbouring field words, so that they take turns (milliseconds). */
   const FIELD_STAGGER = 2000;
 
-  /** Time a word takes to fade to the background colour before it is replaced (milliseconds). */
-  const FIELD_FADE = 900;
+  /** Duration of one change: the word spinning up, changing and spinning down (milliseconds). */
+  const FIELD_SPIN = 1100;
 
-  /** Time the faded new word waits, while the line re-centres, before it takes its colour (milliseconds). */
-  const FIELD_SETTLE = 350;
+  /** Number of full turns the word makes about its horizontal axis during one change. */
+  const FIELD_TURNS = 16;
+
+  /**
+   * Part of the change during which the word spins too fast to be read and is
+   * drawn as a vertical smear, as [start, end] shares of FIELD_SPIN. The text
+   * is exchanged in the middle of this part.
+   */
+  const FIELD_BLUR_SPAN = [0.12, 0.88];
+
+  /** Classes for the two colours a field word can take (styled in css/site.css). */
+  const FIELD_COLORS = ['blue', 'salmon'];
 
   /**
    * Change one of the three field words under the name into another word.
    *
-   * The new word is drawn at random from the pool, skipping the words the
-   * line currently shows and any word that would make the line wider than the
-   * page allows. The change has three steps: the old word's colour fades to
-   * almost the background colour; the new word is put in its place, still
-   * faded, and the slot's width eases to the new word's width so that the line
-   * re-centres smoothly; then the new word's colour comes up. A slot that must
-   * grow starts growing during the first step, so that the new word never
-   * reaches into its neighbours.
+   * The word spins about its horizontal axis like a turbine: it starts slowly,
+   * reaches a speed at which it can no longer be read (FIELD_TURNS turns in
+   * FIELD_SPIN milliseconds, drawn as a vertical smear while fastest), and
+   * slows down again. At top speed the text is exchanged for the new word,
+   * which also takes one of the two colours at random, so the new word is what
+   * emerges as the spin slows. The new word is drawn at random from the pool,
+   * skipping the words the line currently shows and any word that would make
+   * the line wider than the page allows. The slot is as wide as the wider of
+   * the old and the new word while the word spins, and eases to the new word's
+   * width at the end, so that the spinning text never reaches into its
+   * neighbours and the line re-centres smoothly.
    *
    * @param {Element} slot - The field word's outer <span class="field">.
    * @param {Element[]} slots - All three slots.
@@ -658,31 +672,43 @@
     const inner = slot.firstElementChild;
     const line = slot.parentElement;
     const shown = slots.map(function (other) { return other.dataset.word; });
+    const measure = function (word) {
+      ruler.textContent = word;
+      return ruler.getBoundingClientRect().width;
+    };
     const room = view.width * 0.92 - (line.getBoundingClientRect().width - slot.getBoundingClientRect().width);
     const candidates = pool.filter(function (word) {
-      if (shown.indexOf(word) !== -1) { return false; }
-      ruler.textContent = word;
-      return ruler.getBoundingClientRect().width <= room;
+      return shown.indexOf(word) === -1 && measure(word) <= room;
     });
     if (candidates.length === 0) { return; }
     const word = candidates[Math.floor(Math.random() * candidates.length)];
-    ruler.textContent = word;
-    const width = ruler.getBoundingClientRect().width;
+    const width = measure(word);
+    const color = FIELD_COLORS[Math.floor(Math.random() * FIELD_COLORS.length)];
 
     slot.dataset.word = word;
     const current = slot.getBoundingClientRect().width;
     slot.style.width = current + 'px';   // pin the current width so that it can ease
-    inner.classList.add('dim');
-    window.setTimeout(function () {
-      if (width > current) { slot.style.width = width + 'px'; }
-    }, FIELD_FADE - FIELD_SETTLE);
+    slot.getBoundingClientRect();        // make the browser register the pinned width
+    slot.style.width = Math.max(current, width) + 'px';
+
+    if (typeof inner.animate !== 'function') {
+      // Without the animation interface the word is simply exchanged.
+      inner.textContent = word;
+      inner.className = 'field-word ' + color;
+      slot.style.width = width + 'px';
+      return;
+    }
+    inner.animate(
+      [{ transform: 'rotateX(0deg)' }, { transform: 'rotateX(' + (360 * FIELD_TURNS) + 'deg)' }],
+      { duration: FIELD_SPIN, easing: 'cubic-bezier(0.55, 0, 0.45, 1)' }
+    );
+    window.setTimeout(function () { inner.classList.add('spinning'); }, FIELD_BLUR_SPAN[0] * FIELD_SPIN);
     window.setTimeout(function () {
       inner.textContent = word;
-      slot.style.width = width + 'px';
-    }, FIELD_FADE);
-    window.setTimeout(function () {
-      inner.classList.remove('dim');
-    }, FIELD_FADE + FIELD_SETTLE);
+      inner.className = 'field-word spinning ' + color;
+    }, 0.5 * FIELD_SPIN);
+    window.setTimeout(function () { inner.classList.remove('spinning'); }, FIELD_BLUR_SPAN[1] * FIELD_SPIN);
+    window.setTimeout(function () { slot.style.width = width + 'px'; }, FIELD_SPIN);
   }
 
   /**
