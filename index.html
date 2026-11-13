@@ -40,6 +40,13 @@ layout: null
 </head>
 <body>
 
+	<!-- Vertical motion blur for a field word spinning at top speed (see .field-word.spinning in css/site.css) -->
+	<svg width="0" height="0" style="position: absolute" aria-hidden="true">
+		<filter id="spin-blur" x="-5%" y="-250%" width="110%" height="600%">
+			<feGaussianBlur stdDeviation="0.8 7"/>
+		</filter>
+	</svg>
+
 	<!-- Landing: globe canvas, identity block and city buttons -->
 	<section class="hero" id="hero">
 		<canvas id="globe" aria-hidden="true"></canvas>
@@ -73,7 +80,7 @@ layout: null
 			     Its blue points, travelling signals and radial waves are animated in css/site.css. -->
 			<div class="id-brain">{% include brain.svg %}</div>
 			<h1 class="id-name">Bartul Mimica</h1>
-			<p class="id-fields" id="fields"><span class="field"><span class="field-word">Neuroscience</span></span> &middot; <span class="field"><span class="field-word">Ethology</span></span> &middot; <span class="field"><span class="field-word">Communication</span></span></p>
+			<p class="id-fields" id="fields"><span class="field"><span class="field-word blue">Neuroscience</span></span> &middot; <span class="field"><span class="field-word salmon">Ethology</span></span> &middot; <span class="field"><span class="field-word blue">Communication</span></span></p>
 			<p class="id-affiliation">C.V. Starr Postdoctoral Fellow &middot; Princeton Neuroscience Institute</p>
 			<nav class="id-links" aria-label="Contact and profiles">
 				<a href="mailto:bartul.mimica@proton.me" aria-label="Email" title="Email">{% include icon-email-outline.svg %}</a>

@@ -193,14 +193,16 @@ a { color: inherit; }
 
 /* The three words of the field line change over time (see js/landing.js).
    Each sits in a slot whose width eases to the new word's width, so the line
-   re-centres smoothly; the word fades to the background colour, is replaced,
-   and the new word's colour comes up. */
+   re-centres smoothly. The word spins about its horizontal axis like a
+   turbine; while it is fastest it is drawn as a vertical smear (the filter
+   #spin-blur in index.html), and that is when the script exchanges its text. */
 .id-fields { position: relative; white-space: nowrap; }
 
 .field {
   display: inline-flex;
   justify-content: center;
   vertical-align: bottom;
+  perspective: 14rem;
   transition: width 0.3s ease;
 }
 
@@ -208,11 +210,17 @@ a { color: inherit; }
   flex: none;
   display: inline-block;
   white-space: nowrap;
-  transition: color 0.9s ease;
 }
 
-/* Faded: almost the background colour */
-.field-word.dim { color: rgba(214, 210, 201, 0.1); }
+/* At top speed: smeared along the direction of the spin until the letters are gone;
+   brightened, because the smear spreads the same light over a taller band */
+.field-word.spinning {
+  filter: url(#spin-blur) brightness(1.6);
+}
+
+/* The two colours of a field word: the site's blue, and the colour of the female mouse in the video */
+.field-word.blue { color: var(--accent); }
+.field-word.salmon { color: var(--female); }
 
 /* Invisible copy of the type style, used by the script to measure words */
 .field-ruler {
