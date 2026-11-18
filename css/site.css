@@ -445,9 +445,13 @@ a { color: inherit; }
    so the badges are inverted (white becomes black, dark digits become light)
    and their hues rotated back, which keeps the ring colours recognisable. */
 .pub-badges .__dimensions_badge_embed__,
-.pub-badges .altmetric-embed img {
+.pub-badges .altmetric-embed img,
+.pub-badges .altmetric-embed a[aria-label*="not available"] {
   filter: invert(1) hue-rotate(180deg);
 }
+
+/* (The last selector is the Altmetric badge of a paper without data yet: a grey
+   "?" ring drawn as a background image on a link, not as an <img>.) */
 
 .prose .pub-note {
   border-top: 1px solid var(--rule);
